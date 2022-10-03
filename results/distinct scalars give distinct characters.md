@@ -1,0 +1,4 @@
+## Theorem
+Let $u,v$ be nonzero [[p-adic field|p-adic]] numbers. If $u\neq v$, then their associated [[Basic Additive Character|characters]] are distinct.
+## Proof
+Suppose for the sake of contradiction that $\psi_u(x)=\psi_v(x)$ for all $x\in\mathbb Q_p$. Then $\psi(ux) = \psi(vx)$ for all $x$ by definition, and moreover we have that $\psi(ux) \psi(vx)^{-1}=1$. Then we use the [[group homomorphism|homomorphism]] and distributive properties to see that we must have $\psi((u-v)x) = 1$ for all $x$. But we know that $\psi$ is nontrivial at least [[conductor of basic additive character is p-adic integers|somewhere]], so this is true exactly when $u-v$ is zero, which we have assumed to not be the case.

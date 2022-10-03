@@ -1,0 +1,4 @@
+## Theorem
+The $i$th [[reduced homology group]] of the $n$-sphere is $\mathbb Z$ when $i=n$ and is trivial when $i\neq n$.
+## Proof
+Let our [[exact sequence on reduced homology of space and retractable subspace]] be $X = D^n$, $A=S^{n-1}$ so that the [[quotient vector space|quotient]] $X/A = S^n$. The [[exact sequence]] of [[reduced homology group|homology groups]] for the pair $(X,A)$ has every third term (the $\tilde H_i(D^n)$) zero because the disk is [[contractible]]. Because the sequence is [[exact sequence|exact]], the maps $\partial: \tilde H_i(S^n) \to H_{i-1}(S^{n-1})$ are [[group homomorphism|isomorphisms]] when $i >0$. The result follows by [[induction]] on $n$. 

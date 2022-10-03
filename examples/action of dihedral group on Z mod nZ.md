@@ -1,0 +1,1 @@
+The [[dihedral group]] $D_{2n}$ [[group action|acts]] on $\mathbb Z/n\mathbb Z$ by $x\mapsto \pm x+b$ for all $b\in \mathbb Z/n\mathbb Z$. 

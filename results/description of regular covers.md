@@ -1,0 +1,4 @@
+## Theorem
+Let $E$ and $B$ be [[connected]], [[locally path-connected]] [[topological space|topological spaces]] and let $p:E\to B$ be a [[covering space|cover]] such that the [[automorphism group of coverings|automorphism group]] $\text{Aut}(E)$ [[transitive group action|acts transitively]] on the [[fiber]] $F_b$ for $b\in B$. Then the [[covering space|cover]] $p$ is [[regular covering space|regular]] and the [[quotient of topological spaces|quoteint]] $E/\text{Aut}(E)$ is [[homeomorphism|homeomorphic]] to $B$. 
+## Proof
+For any $e,e'\in F_b$, there exists $g\in \text{Aut}(E)$ such that $g(e) = e'$ ( #todo: why?) #write_proof 

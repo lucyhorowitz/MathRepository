@@ -1,0 +1,4 @@
+## Theorem
+Let $R$ be an [[integral domain]]. If $x\in R$ is [[prime element of an integral domain|prime]], then $x$ is [[irreducible element of an integral domain|irreducible]]. 
+## Proof
+By definition, $x\neq 0$ and $x$ is not a [[unit of a ring|unit]] because the [[ring ideal|ideal]] [[generate a ring ideal|generated]] by $x$ is [[prime ideal|prime]] and therefore not [[proper ring ideal|proper]]. Now suppose that $x=ab$. Then $x\mid ab$, so without loss of generality $x$ [[division in a ring|divides]] $a$. This implies that there exists $a'\in R$ such that $x= xa'b$ by the [[cancellation property]]. Thus $1=a'b$ which implies that $b$ is a [[unit of a ring|unit]], and therefore $x$ is [[irreducible element of an integral domain|irreducible]].

@@ -1,0 +1,11 @@
+---
+aliases: Qp
+---
+Let $p\in \mathbb Z$ be [[prime number|prime]]. Then for all $x\in \mathbb Q/\{0\}$, we can write $x= p^n\cdot \frac{a}{b}$ such that $a$ and $b$ are [[coprime]] and $p$ does not [[division in a ring|divide]] either $a$ or $b$. Note that $n$ may be negative. Then we define the [[valuation]] $\text{val}_p(x) =n$ and the **$p$-adic [[absolute value]]** of $x$ to be $|x|_p = p^{-n}$. 
+## Proof that it is a [[non-Archimedean absolute value|non-Archimedean]] [[absolute value]].
+[[positive definite|Positive definiteness]] is trivial. Now let $x= p^n\cdot \frac{a}{b}$ and $y= p^m\cdot\frac{c}{d}$ as above. Then $|x|_p = p^{-n}$ and $|y|_p = p^{-m}$. Then $xy = p^{n+m}\cdot \frac{ac}{bd}$ so that $|x\cdot y| = p^{-(n+m)}= |x|_p|y_p|$ as desired. Note that this only works because $p$ is [[prime number|prime]] and therefore [[generate a ring ideal|generates]] a [[prime ideal]] so if $p$ [[division in a ring|divides]] a product, it must divide both of the factors. Without loss of generality, suppose that $n\geq m$. Then $$x+y = p^{m}\left(\frac{p^{n-m}ad+bc}{bd}\right).$$ If $n>m$, this satisfies the divisibility properties and we have the [[non-Archimedean absolute value|ultrametric inequality]]. In the case that $n=m$, the possibility that we can factor out extra $p$s is there, but this would make the [[absolute value]] smaller, and therefore the [[non-Archimedean absolute value|ultrametric inequality]] is still satisfied. 
+
+The **$p$-adic numbers** are the [[completion of a metric space|completion]] of $\mathbb Q$ under the $p$-adic absolute value. We denote this [[field]] by $\mathbb Q_p$.
+
+## Proof that it is a [[field]] compatible with $\mathbb Q$:
+Recall that the elements of the [[completion of a metric space|completion]] of a [[metric space]] are just given by the [[equivalence class|equivalence classes]] of [[Cauchy sequence|Cauchy sequences]] under the relation $\{a_n\}_{n\in\mathbb N}\sim\{b_n\}_{n\in\mathbb N}$ if $\{a_n-b_n\}_{n\in\mathbb N}$ converges to $0$. If we define addition and multiplication termwise, it is easy to verify the [[field]] axioms. 

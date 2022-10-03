@@ -1,0 +1,6 @@
+## Theorem
+A [[subgroup]] of a [[free group]] is also [[free group|free]]. If $G$ is [[free group|free]] on $k$ [[generating set of a group|generators]] and $H$ has finite [[index of a subgroup|index]] in $G$, then $H$ is [[free group|free]] on $1-n+nk$ generators.
+## Proof
+Think of $G$ as the [[fundamental group]] of a [[topological space]] $B$ where $B$ is the [[wedge sum]] of one circle for each [[generating set of a group|generator]] of $G$. Construct a [[covering space|covering]] $p:E\to B$ such that the [[continuous functions induce homomorphisms on homology groups|induced homomorphism]] $p_*(\pi_1(E))=H$. Since $E$ is a [[graph]] ( #todo: why?), [[fundamental group of connected graph is free on generators edges not in maximal tree|then]] $H$ is [[free group]].
+
+If $G$ has $k$ [[generating set of a group|generators]], [[fundamental group of connected graph is free on generators edges not in maximal tree|then]] $\chi(B) = 1-k$. If $[G:H]=n$, then the [[fiber]] $F_b$ has [[cardinality]] $n$ [[Euler characteristic of covering of graph|and]] $\chi(E) = n\chi(B)$. Therefore $1-\chi(E) = 1-n+nk$. 

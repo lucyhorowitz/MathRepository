@@ -1,0 +1,4 @@
+## Theorem
+Let $V$ and $W$ be [[definitions/vector space|vector spaces]] and let $\wedge^m(V)$ be the $m$-fold [[exterior power of a vector space|exterior product]] of $V$. Then the [[injective]] [[linear transformation]] given by the construction of [[isomorphism between maps with domain quotient space and domain parent space|this isomorphism]] and the [[isomorphism between linear maps from tensor product and multilinear maps from Cartesian product|isomorphism between linear maps from the m-fold tensor product and multilinear maps from the m-fold Cartesian product]] has as its [[image]] the [[antisymmetric]] [[multilinear|multilinear]] maps $$T:V\times\cdots\times V \to W.$$ That is, such transformations $T$ are have the property that for all [[transposition|transpositions]] $\sigma_{ij}$ that swap $i$ and $j$, and vectors $v_1,\dots,v_n \in V$, $$T(v_1,\dots,v_m) = -T(v_{\sigma_{ij}},\dots, T(v_{\sigma_{ij}})).$$
+## Proof
+#write_proof 

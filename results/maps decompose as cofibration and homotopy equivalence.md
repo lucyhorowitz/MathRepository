@@ -1,0 +1,4 @@
+## Theorem
+Let $X$ and $Y$ be [[compactly generated]] [[topological space|topological spaces]] and let $f:X\to Y$ be a [[continuous]] function. Then $f$ may be written as the composite of a [[cofibration]] and a [[homotopy equivalence of spaces|homotopy equivalence]].
+## Proof
+Let $I$ be the unit [[interval]] and let $Mf = Y\cup_f (X\times I)$ be the [[mapping cylinder]] of $f$. Note that $f$ coincides with the composite $X\overset{j}{\to} Mf \overset{r}{\to} T$ where $j(x) = (x,y)$, $r(y) = y\in Y$, and $r(x,s) = f(x)$ on $X\times I$. If $i:Y\to Mf$ is the inclusion, then $r\circ i= \text{id}$ and $\text{id} \simeq i\circ r$. ( #todo : why?) We can define a [[deformation retraction|deformation]] $h:Mf\times I \to Mf$ of $Mf$ [[surjective|onto]]  the [[image]] $i(Y)$ by setting $h(y,t) = y$ and $h((x,s),t) = (x,(1-t)s)$. CHECK that $j:X\to Mf$ satisfies the [[cofibration|homotopy extenson property]]. 

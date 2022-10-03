@@ -1,0 +1,1 @@
+Let $G$ be an [[abelian]] [[group]] and let $n\geq 1$ be an integer. A [[CW complex]] $X$ such that the $n$th [[homology group]] $H_n(X)$ is [[group homomorphism|isomorphic]] to $G$ and the [[reduced homology group|reduced homology groups]] $\tilde H_i(X)$ is trivial for $i\neq n$ is called a **Moore space** and is denoted $M(G,n)$. 

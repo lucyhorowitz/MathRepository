@@ -1,0 +1,6 @@
+## Theorem
+Let $F$ be a [[field]] with a [[non-Archimedean absolute value|non-Archimedean]] [[absolute value]] $|\cdot|$. Then $F$ is [[totally disconnected]] under the [[absolute value induces a topology|absolute value topology]] and moreover the [[topological space]] is not [[discrete topology|discrete]].
+## Proof
+Because the field is a [[metric space]] under the [[absolute value induces a topology|absolute value topology]], a set is [[open]] if and only if it contains an open ball of positive radius around every point. The singletons in $F$ are not open because they certainly do not contain an open ball of positive radius. Thus the [[topological space|topology]] is not [[discrete topology|discrete]].
+
+Let $x\in F$ and denote by $X$ its [[connected component]]. We will show that $X = \{x\}$, i.e. that the [[connected component|connected components]] of $F$ are exactly the singletons. Suppose that $y\in X$ is not equal to $x$. Then there exists $\varepsilon > 0$ such that $B_\varepsilon(y) \cap X\neq X$. Then we have $$X = (B_\varepsilon(y)\cap X)\cup ((F\setminus B_\varepsilon(y))\cap X).$$ That is, we have written $X$ as the disjoint union of two nonempty [[open]] sets, contradicting its [[connected|connectedness]]. Thus $F$ is [[totally disconnected]].

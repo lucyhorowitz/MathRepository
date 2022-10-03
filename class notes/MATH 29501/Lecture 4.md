@@ -1,0 +1,26 @@
+## 2022-04-25
+### Defined
+- [[topological ring]]
+- [[topological field]]
+- [[p-adic integers]]
+- [[curly P]]
+### Stated
+- [[p-adic integers are a subring of p-adic numbers]]
+- [[curly P is an ideal of p-adic integers]]
+- [[curly P is a maximal ideal]]
+- [[curly P is a prime ideal]]
+- [[curly P is the unique maximal ideal of p-adic integers]]
+- [[Qp is union of powers of curly P]]
+- [[index of powers curly P is difference of powers]]
+- [[p-adic integers is disjoint union of cosets of curly P]]
+- [[multiplicative group of Qp is Z times units of p-adic integers]]
+- [[p-adic integers are closed]]
+- [[p-adic integers are bounded]]
+### Proved
+- [[Qp is a topological field]]
+- [[curly P is p times p-adic integers]]
+- [[p-adic integers mod curly P is Z mod pZ]]
+- [[unique factorization of p-adic numbers into power of p and p-adic integer]]
+-  [[p-adic integers are compact]]
+-  [[curly P is compact]]
+-  [[Heine-Borel holds in Qp]]

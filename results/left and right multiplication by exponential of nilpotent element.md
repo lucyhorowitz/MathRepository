@@ -1,0 +1,4 @@
+## Theorem
+Let $V$ be a [[vector space]] and let $L\subset \mathfrak{gl}(V)$ (the [[general linear algebra]]) be a [[linear Lie algebra]] over a [[vector space]] whose ground [[field]] has [[characteristic of a field|characteristic]] $0$. If $x\in L$ is [[nilpotent]], then $$(\text{exp}(x))y(\text{exp}(x))^{-1} = (\text{exp}(\text{ad}(x))y$$ for all $y \in L$.
+## Proof
+Note that the [[adjoint representation of a Lie algebra|adjoint]] $\text{ad}(x) = \lambda_x + \rho_{-x}$, where $\lambda_x$ and $\rho_y$ denote left and right multiplication by $x$ in the [[ring]] of [[endomorphism|endomorphisms]] of $V$. They [[commutative|commute]] and are [[nilpotent]]. The usual rules of exponentiation give the result.

@@ -1,0 +1,4 @@
+## Theorem
+The [[Hardy-Littlewood maximal operator]] does not satisfy the [[strong (p,q)|strong]] $(1,1)$ estimate.
+## Proof
+The [[characteristic function]] $f= \chi_{[0,1]}$ serves as a counterexample. We will show that $Mf\notin L_1 (\mathbb R)$. Applying the definition of the [[Hardy-Littlewood maximal operator]] to $f$ gives $$Mf(x) = \sup_{r >0} \frac{1}{\mu(B(x,r))} \int_{B(x,r)} f\text d\mu.$$ When $x \in (0,1)$, $Mf(x) = 1$. When $x =0$ or $x =1$, $Mf(x) = 1/2$. Suppose now that $x > 1$, and let $r = x$. Then $$\frac{1}{\mu(B(x,r))} \int_{B(x,r)} f\text d\mu = \frac{1}{2x},$$ so by the definition of the operator as a [[supremum]] it must be that $Mf(x) \geq \frac{1}{2x}$. Then $$||Mf||_1 = \int_0^\infty Mf(x) \text dx \geq \int_0^\infty \frac{1}{2x}\text dx \to \infty,$$ so it cannot be that $Mg$ is always in [[Lp space|L]]$_1$ for every $g$.

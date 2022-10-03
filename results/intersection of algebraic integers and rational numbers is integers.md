@@ -1,0 +1,4 @@
+## Theorem
+Suppose that $x$ is both an [[algebraic integer]] and a rational number. That is, suppose $x\in \overline{\mathbb Z}\cap  \mathbb Q$. Then $x$ is an integer.
+## Proof
+Write $x= \frac{a}{b}$. Then by definition of the [[algebraic integer|algebraic integers]], there exist integers $a_i$ such that $$a_0 + a_1\left(\frac{a}{b}\right) + a_2\left(\frac{a}{b}\right)^2+\cdots+\left(\frac{a}{b}\right)^{n-1} = 0.$$ Multiply through by $b^{n-1}$: $$b^{n-1}a_0a+a_1b^{n-2}a + \cdots + ba_{n-2}a^{n-2} + a^{n-1}=0.$$ By the [[rational root test]], $b= \pm 1$ and consequently $x$ must be an integer. 

@@ -1,0 +1,4 @@
+## Theorem
+Let $V_1,\dots,V_n$ be [[definitions/vector space|vector spaces]] and let $V_1\otimes \cdots\otimes V_n$ [[tensor product of vector spaces is associative|]] denote their [[tensor product of vector spaces|tensor product]]. Then the map $$\phi:V_1\times\cdots\times V_n \to V_1\otimes\cdots\otimes V_n$$ given by $$(v_1,\dots,v_n)\mapsto v_1\otimes \cdots\otimes v_n$$  is [[multilinear]] and the map $$f:\text{Maps}(V_1\otimes\cdots\otimes V_n, W) \to \text{Maps}(V_1\times\cdots\times V_n, W)$$ given by $f(T) = T\circ \phi$ for $T: V_1\times\cdots\times V_n\to W$ is an [[linear transformation|isomorphism]].
+## Proof
+#write_proof 

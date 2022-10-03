@@ -1,0 +1,12 @@
+### 4.3 Groups Acting on Themselves by Conjugation
+- [[conjugacy classes]]
+- [[number of conjugates of a subgroup is is the index of the normalizer]]
+- [[cardinality of conjugacy class is index of centralizer]]
+- [[Class Equation]]
+- [[p-groups have nontrivial center]]
+- [[classification of groups of order p^2]]
+- [[cycle decomposition of conjugates]]
+- [[cycle type]]
+- [[partition of an integer]]
+- [[elements of Sn are conjugate iff they have the same cycle type]]
+- [[conjugacy classes of Sn is number of partitions of n]]

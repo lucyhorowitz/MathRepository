@@ -1,0 +1,4 @@
+## Theorem
+A [[map of covering of groupoid|map]] $g:\mathcal E\to \mathcal E'$ of [[covering of groupoids|coverings of groupoids]]  is itself a [[covering of groupoids]].
+## Proof
+The [[functor]] $g$ is [[surjective]] on objects because if $e'\in \mathcal E'$ and we choose an object $e\in \mathcal E$ and a map $f:g(e)\to e'$ in $\mathcal E'$, then $e' = g(T(p'(f))(e))$. The map on the [[star of an object|star]] $g:\text{St}_{\mathcal E}(e) \to \text{St}_{\mathcal E'}(g(e))$ is then a [[bijective|bijection]] because its composition with the [[bijective|bijection]] $p':\text{St}_{\mathcal E'}(g(e)) \to \text{St}_{\mathcal B}(p'(g(E)))$ is the [[bijective|bijection]] $p:\text{St}_\mathcal E(e) \to \text{St}_\mathcal B(p(e)).$

@@ -1,0 +1,4 @@
+## Theorem
+Let $(X,\Sigma, \mu)$ be a [[measure space]]. For any [[countable]] collection $\{A_i\}_{i\in\mathbb N}$ of [[measurable]] sets covering a [[measurable]] set $A$, $$\mu(A) \leq \sum_{i\in\mathbb N} \mu(A_n).$$
+## Proof
+Let $B_1 = A_1$, and for $i > 1$, let $$B_n = A_n\setminus\left(\bigcup_{i=1}^{n-1}A_i\right).$$ We have that the $B_i$ are all pairwise disjoint, and that $$\bigcup_{i\in\mathbb N} B_i = \bigcup_{i\in\mathbb N} A_i$$ Moreover, $B_i \subseteq A_i$ for all $i$. From [[monotonicity of measure|monotonicity]] and the fact that [[measure space|measures]] are [[countable|countably]] additive by definition, $$\mu(A) \leq \mu\left(\bigcup_{i\in\mathbb N} A_i\right) = \mu\left(\bigcup_{i\in\mathbb N} B_i\right) = \sum_{i\in\mathbb N} \mu(B_n) \leq \sum_{i\in\mathbb N} A_i.$$

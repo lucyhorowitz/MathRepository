@@ -1,0 +1,4 @@
+## Theorem
+Let $F$ be a [[field]] and let $F[x]$ be its [[polynomial ring]]. Then if $g$ is a non-constant ([[properties of polynomial ring of integral domain|i.e.]] non-[[unit of a ring|unit]]) polynomial that factors as follows into [[irreducible element of an integral domain|irreducibles]]: $$g= f_1^{n_1}\cdots f_k^{n_k}$$ for distinct $f_i$, then the [[quotient ring|quotient]] of $F[x]$ by the [[ring ideal|ideal]] [[generate a ring ideal|generated]] by $g$ is [[ring homomorphism|isomorphic]] to $$F[x]/(g(x)) \cong F[x]/(f_1(x)^{n_1})\times\cdots \times F[x]/(f_k(x)^{n_k})$$
+## Proof
+This follows from the [[Chinese Remainder Theorem]] because of [[comaximal ring ideals|comaximality]] of [[ring ideal|ideals]] [[generate a ring ideal|generated]] by powers of distinct [[irreducible element of an integral domain|irreducibles]]. 

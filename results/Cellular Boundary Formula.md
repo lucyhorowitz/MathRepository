@@ -1,0 +1,4 @@
+## Theorem
+Let $X$ be a [[CW complex]] and consider the [[cellular chain complex]] of $X$. The [[boundary homomorphism|boundary homomorphisms]] $d_n$ are given by $$d_n(e_\alpha^n) = \sum_\beta d_{\alpha\beta}e^{n-1}_\beta$$ where $d_{\alpha\beta}$ is the [[degree of map between spheres|degree]] of the map $S^{n-1}_\alpha \to X^{n-1} \to S^{n-1}_\beta$ given by the composition of the attaching map of $e_\alpha^n$ an $n$-cell ([[open simplex]]?) with the [[canonical projection]] collapsing $X^{n-1}\setminus e_\beta^{n-1}$ to a point.
+## Proof
+#write_proof [[commutative diagram]] [[characteristic map of open simplex]] [[generating set of a group]]

@@ -1,0 +1,26 @@
+## Part 1 (Finite Groups)
+### Lecture 1 (Representations of Finite Groups)
+#### Definitions
+- [[group representation]]
+- [[module over a ring]]
+- [[dimension of group representation]]
+- [[morphism of group representations]]
+- [[subrepresentation]]
+- [[irreducible representation]]
+- [[direct sum of group representations]]
+- [[tensor product of group representations]]
+- [[exterior power of group representations]]
+- [[symmetric power of group representations]]
+- [[dual space]]
+- [[dual representation]]
+- [[permutation representation]]
+- [[regular representation]]
+- [[invariant subspace]]
+#### Complete Reducibility; Schur's Lemma
+- [[indecomposable representation]]
+- [[representations are direct sums of invariant subspaces]]
+- [[representations are direct sums of irreducible representations]]
+- [[complete reducibility]]
+- [[modular representation]]
+- [[Schur's lemma]]
+- [[direct sum decomposition of representations]]

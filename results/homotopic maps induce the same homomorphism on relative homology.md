@@ -1,0 +1,4 @@
+## Theorem
+Let $X,Y$ be [[topological space|topological spaces]] and let $A$ and $B$ be [[subspace topology|subspaces]] of $X$ and $Y$ respectively. If two [[continuous]] functions $f,g:(X,A)\to (Y,B)$ are [[homotopy|homotopic]] through maps of pairs $(X,A) \to (Y,B)$, then the [[continuous functions induce homomorphisms on homology groups|induced homomorphisms]] on the [[relative homology groups|relative homology groups ]] are such that $$f_*=g_* :H_n(X,A) \to H_n(B,Y).$$
+## Proof
+#write_proof [[homotopic maps induce the same homomorphism on homology]] [[chain homotopy]] [[quotient by subgroup|quotient group]]

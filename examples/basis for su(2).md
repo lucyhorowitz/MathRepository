@@ -1,0 +1,3 @@
+These three [[matrix|matrices]] form a [[basis]] for the [[Lie algebra]] $\mathfrak{su}(2)$ [[Lie algebra of SU(n) is traceless complex anti-self-adoint matrices|of]] the [[special unitary group]] $\text{SU}(2)$:
+$$E_1 = \frac{1}{2}\begin{bmatrix}i&0 \\ 0 & -i\end{bmatrix}, \quad E_2 = \frac{1}{2}\begin{bmatrix}0 & i \\ i & 0\end{bmatrix},\quad E_3=\begin{bmatrix}0 & -1\\1 & 0\end{bmatrix}.$$ Moreover, they satisfy the commutation relations $$[E_1,E_2] = E_3, \quad [E_2,E_3] = E_1, \quad [E_3,E_1] = E_2.$$
+This can be verified by a simple calculation.

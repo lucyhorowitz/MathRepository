@@ -1,0 +1,4 @@
+## Theorem
+Denote the [[Schwartz space]] of the [[p-adic field]] by $C_c^\infty(\mathbb Q_p)$ and let $\mathcal F: C_c^\infty(\mathbb Q_p)\to C_c^\infty(\mathbb Q_p)$ be the map given by $\mathcal F(f) = \widehat f$, where the hat denotes the [[Fourier transform over Qp]]. Then $\mathcal F$ is a [[bijective|bijection]] and moreover if $f$ has [[support]] on the $m$th power of [[curly P]] $\mathcal P^m$ and is constant on [[left coset|cosets]] of $\mathcal P^n$, then $\widehat f$ has [[support]] on $\mathcal P^{-n}$ and is constant on [[left coset|cosets]] of $\mathcal P^{-m}$.
+## Proof
+[[linearity of the integral]] [[group homomorphism]] [[conductor of a multiplicative character]] [[conductor of basic additive character is p-adic integers]] [[Basic Additive Character]] [[conductor of basic additive character is p-adic integers]] [[support]] [[compact]] [[Fubini's theorem]][[integral over powers of curly P of basic additive character]] [[p-adic integers]] 

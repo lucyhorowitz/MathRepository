@@ -1,0 +1,6 @@
+## Theorem 
+Let $(X,\Sigma,\mu)$ be a [[measure space]] and let $\{f_n\}_{n\in\mathbb N}$ be a sequence of functions $f_n: X\to \mathbb R$. The sequence [[almost uniform convergence|converges almost uniformly]] to $f$ if and only if it [[pointwise convergence|converges pointwise]] to $f$ at [[almost everywhere|almost every]] $x \in X$.
+## Proof
+Suppose that $f_n$ [[almost uniform convergence|converges almost uniformly]] to $f$. Fix $\varepsilon > 0$, and let $A_\varepsilon$ be the set such that $\mu(A) < \varepsilon$ and $f_n$ [[uniform convergence|converges uniformly]] to $f$ on $X\setminus A_\varepsilon$. Because $f$ [[uniform convergence|converges uniformly]] to $f$ on this set, it [[uniform convergence implies pointwise convergence|must]] also [[pointwise convergence|converge pointwise]]. Let $$E = \bigcap\limits_{n\in\mathbb N} E_{1/n}.$$ Then $\mu(E) = 0$, and $f_n$ [[pointwise convergence|converges pointwise]] to $f$ on $X\setminus E$. Thus $f_n \to f$ at [[almost everywhere|almost every]] point.
+
+Now suppose that $f_n$ [[pointwise convergence|converges pointwise]] to $f$ at [[almost everywhere|almost every]] $x \in X$. Then by [[Egorov's theorem]], it must be that $f_n$ [[almost uniform convergence|converges almost uniformly]] to $f$.

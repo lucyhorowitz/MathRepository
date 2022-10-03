@@ -1,0 +1,4 @@
+## Theorem
+Let $(X,\Sigma,\mu)$ be a [[measure space]]. Then for a [[measurable function]] $f:X\to \mathbb R$, we have $$\int_X |f|\text d\mu = \int_{\mathbb R} \mu(\{x\in X \mid f(x) > t\})\text dt.$$
+## Proof
+Let $A = \{(x,t)\mid f(x) \geq t\}$. Then from [[Fubini's theorem]], $$\int_0^\infty \int_X \chi_A \text dx\text dt = \int_X \int_0^\infty \chi_A \text dt\text dx.$$ Evaluating both [[Lebesgue integral|integrals]] yields $$\int_0^\infty\mu(\{x\mid f(x)\geq t\})\text dt = \int_X \mu(\{t\in [0,\infty)\mid f(x)\geq t\})\text dx.$$ However, $$\int_X\mu(\{t\in[0,\infty)\mid f(x) \geq t\})\text dx = \int_X\mu([0,f(x)])\text dx = \int_X f(x)\text dx,$$ as desired.

@@ -1,0 +1,1 @@
+Let $X$ be a [[topological space]], and let $A\subset X$. The [[exterior]] of $A$ is equal to the [[interior]] of $X\setminus A$.

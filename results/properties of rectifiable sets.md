@@ -1,0 +1,6 @@
+1. [[nonnegativity of volume of a rectifiable set]]
+2. [[comparison of volume of nested rectifiable sets]]
+3. [[rectifiability of intersection]]
+4. [[volume criterion for zero measure of a rectifiable set]]
+5. [[rectifiability of the interior]]
+6. [[rectifiability criterion for integrability]]

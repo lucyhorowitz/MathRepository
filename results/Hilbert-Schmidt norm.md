@@ -1,0 +1,2 @@
+The **Hilbert-Schmidt [[norm]]** of a complex [[matrix]] $X\in M_n(\mathbb C)$ is defined by $$||X|| = \left( \sum_{j,k=1}^n |X_{jk}^2|\right)^{1/2}.$$ A [[basis]]-independent computation using the [[trace]] and the [[complex conjugate]] of $X$ is as follows: $$||X|| = (\text{tr}(X^*X))^{1/2}.$$
+## Proof that it is a [[norm]]

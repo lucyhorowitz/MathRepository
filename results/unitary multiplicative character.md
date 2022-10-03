@@ -1,0 +1,1 @@
+A [[multiplicative character]] is **unitary** if its image has [[complex absolute value|absolute value]] $1$ everywhere on the [[group]] $G$. 

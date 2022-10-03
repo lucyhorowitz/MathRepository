@@ -1,0 +1,6 @@
+## Theorem
+The set of rational numbers cannot be expressed as a [[countable]] intersection of [[open]] sets.
+## Proof 1 (Cantor intersection theorem)
+Because $\mathbb Q$ is [[countable]], we can enumerate it by the naturals as $\{q_i\}_{i\in\mathbb N}$. Suppose that $\{G_i\}_{i\in\mathbb N}$ is a collection of [[open]] sets in $\mathbb R$ such that $\mathbb Q = \bigcap\limits_{i\in\mathbb N} G_i$. Then each $Q_i$ is [[dense]] in $X$ because it must contain $\mathbb Q$, which is a [[dense]] subset of $\mathbb R$. 
+
+Choose a nonempty [[closed]] [[interval]] $I_1\subset G_1$ such that $q_1\notin I_1$, and for each $n\geq 2$, choose a nonempty [[closed]] [[interval]] $I_n\subset G_n\cap I_{n-1}$ such that $q_n \notin I_n$. Because $\mathbb R$ is [[complete metric space|complete]], we can apply the [[Cantor intersection theorem]], which implies that the intersection $\bigcap\limits_{i\in\mathbb N} I_i$ is nonempty, but by construction, it does not contain any rational numbers. Thus it must contain an irrational number, and because $I_i\subset G_i$ for all $i$, $\bigcap\limits_{i\in\mathbb N} I_i \subseteq \bigcap\limits_{i\in\mathbb N} G_i = \mathbb Q$. But this means that the intersection $\bigcap\limits_{i\in\mathbb N} G_i \neq \mathbb Q$, and $\mathbb Q$ is therefore not [[Gδ]].

@@ -1,0 +1,3 @@
+Let $X$ and $Y$ be two [[based topological space|based]] [[topological space|topological spaces]]. The **smash product** of $X$ and $Y$ is the [[quotient of topological spaces|quotient space]] $$X\wedge Y = (X\times Y)/(X\vee Y)$$ where $X\vee Y$ is the [[subspace topology|subspace]] of $X\times Y$ consisting of pairs $(x,y)$ such that either $x$ is the basepoint of $X$ or $y$ is the basepoint of $Y$. 
+
+This is the analogue of the Cartesian product in the [[category of based topological spaces]].

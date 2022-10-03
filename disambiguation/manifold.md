@@ -1,0 +1,5 @@
+[[C^k manifold]]
+[[embedded m-dimensional manifold]]
+[[topological m-dimensional manifold with boundary]]
+[[smooth topological m-dimensional manifold]]
+[[embedded m-dimensional manifold with boundary]]

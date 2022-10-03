@@ -1,0 +1,6 @@
+## Theorem
+Let $M \subset\mathbb R^n$ be a [[compact]] [[embedded m-dimensional manifold with boundary]] [[orientable|oriented]] by the [[differential k-form|m-form]] $\omega$. We may define an [[orientation]] $\nu: \partial M \to \wedge^{m-1}((\mathbb R^n)^*)$ on the [[boundary points of a manifold|boundary]] $\partial M$ as follows: 
+
+For $p \in \partial M$, define $\nu(p) = \iota_{X(p)}\omega(p)$ where $X(p)$ is the [[existence of outward pointing function on the boundary of a manifold|outwrad pointing function]] on $M$ and $\iota$ is the map as in the proof of [[exterior power is zero if and only if its elements are linearly dependent|this result]] from [[class notes/MATH 20800/Homework 5]]. We have for $v$ an element of some $k$-[[dimension of vector space|dimensional]] [[definitions/vector space]], $i_v: \wedge^k(V^*)\to \wedge^{k-1}(V^*)$ as a map between different [[exterior power of a vector space|exterior products]] of the [[dual space]] of $V$ is given by $$\iota_v(\phi_1,\dots,\phi_k) = \sum_{i=1}^k (-1)^i \phi_i(v)\phi_1 \wedge\cdots\ wedge \phi_{i-1}\wedge\phi_{i+1}\wedge\cdots\wedge \phi_k.$$
+## Proof
+#todo: show that this does in fact define an [[orientation]] #write_proof 

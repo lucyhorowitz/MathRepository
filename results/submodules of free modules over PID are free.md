@@ -1,0 +1,4 @@
+## Theorem
+Let $R$ be a [[principal ideal domain]] and let $M$ be a [[free module|free]] $R$-[[module over a ring|module]] with finite [[rank of a module|rank]] $m$. Let $N$ be a [[submodule]] of $N$. Then $N$ is [[free module|free]] and has [[rank of a module|rank]] $n\leq m$. Moreover, there is a [[free module|basis]] $\{y_i\}_{i=1}^m$ for $M$ such that $\{a_iy_i\}_{i=1}^m$ is a [[free module|basis]] for $N$ where $a_i$ satisfy the [[division in a ring|divisibility relations]] $$a_1\mid a_2\mid\cdots\mid a_m.$$
+## Proof
+#write_proof  [[module homomorphism]] [[image]] [[ring ideal|ideal]] [[principal ideal]] [[PIDs are Noetherian]] [[generate a ring ideal]] [[kernel of module homomorphism]] [[generate an R-module]] [[direct sum of modules]] [[induction]] [[free module|basis for a module]] 

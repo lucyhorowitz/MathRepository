@@ -1,0 +1,5 @@
+## Theorem
+The [[quotient ring|quotient]] of the [[p-adic integers]] by [[curly P]] is isomorphic to [[Z mod nZ|Z/pZ]]. That is, $$\mathbb Z_p/\mathcal P \cong \mathbb Z/p\mathbb Z.$$
+
+## Proof
+First, recall that $\mathcal P$ [[curly P is an ideal of p-adic integers|is]] in fact an [[ring ideal|ideal]] of $\mathbb Z_p$. Then this follows immediately from the [[the image of Z in p-adic integers is dense|density theorem]], in that the [[left coset|cosets]] are exactly in [[bijective|bijection]] with the set $\{0,1,\dots, p-1\}$ and the fact that $\mathcal P$ [[curly P is a maximal ideal|is]] a [[maximal ring ideal|maximal]] [[ring ideal|ideal]] of $\mathbb Z_p$, and the [[commutative ring ideal is maximal iff quotient is a field|quotient of a commutative ring by a maximal ideal is a field]]. Finally, recall that there is [[classification of fields of prime-power order|exactly]] one [[field]] with $p$ elements, namely $\mathbb Z/p\mathbb Z$. 

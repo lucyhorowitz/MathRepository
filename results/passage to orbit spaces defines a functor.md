@@ -1,0 +1,4 @@
+## Theorem
+Let $G$ be a [[group]] and $X$ a [[G-space]]. Then passing to [[G-space|orbit spaces]], we get a [[functor]] $$X/(-):\mathcal O(G)\to \mathcal U$$ where $\mathcal O(G)$ is the [[category of canonical orbits]] and $\mathcal U$ is the [[category of topological spaces]].
+## Proof
+Let $H$ and $K$ be [[subgroup|subgroups]] of $G$. Then the [[functor]] sends the [[quotient by subgroup|quotient]] $G/H$ to the [[G-space|orbit space]] $X/H$ and it sends a map $\alpha:G/H\to G/K$ to the map $X/H\to X/K$ that sends the [[right coset|coset]] $Hx$ to the [[right coset|coset]] $K\gamma^{-1}x$, where $\alpha$ is given by the [[conjugate subgroups|subconjugacy]] relation $\gamma^{-1}H\gamma \subset K$. 

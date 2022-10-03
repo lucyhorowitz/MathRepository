@@ -1,0 +1,5 @@
+### Theorem 
+Let $\mathcal O = \{U\}$ be a [[open cover|cover]] of a [[topological space]] $X$ by [[path-connected]] [[open]] subsets such that the intersection of finitely many subsets in $\mathcal O$ is still an element of $\mathcal O$. Then we may think of $\mathcal O$ as a [[category]] whose objects are the sets $U$ and whose morphisms are the inclusions of subsets. Note that the [[functor]] $\pi_1(-,x)$, when restricted to the [[subspace topology|spaces]] and maps in $\mathcal O$, gives an $\mathcal O$-[[D-shaped diagram|shaped diagram]] $$\pi_{1|\mathcal O}:\mathcal O \to \mathcal{G}$$ of [[category of groups|groups]]. The [[fundamental group]] $\pi_1(X,x)$  is the [[colimit of a D-shaped diagram|colimit]] of this diagram. That is, $$\pi_1(X,x) \cong \text{colim}_{U\in \mathcal O}\pi_1(U,x).$$
+
+## Proof
+#write_proof [[skeleton of a category]] [[group homomorphism]] [[groupoid]] [[equivalence of categories]] [[homotopy equivalence of paths]] [[induction]] [[van Kampen theorem]]

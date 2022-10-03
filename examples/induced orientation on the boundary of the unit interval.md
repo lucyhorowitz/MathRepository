@@ -1,0 +1,2 @@
+Let $M = [0,1]$. Then $M$ [[unit interval  as oriented manifold|is]] an [[oriented manifold]] with [[orientation]] determined by $dx$. It has [[boundary points of a manifold|boundary]] $\partial M = \{0,1\}$. At $0$ the [[outward pointing]] vector defined by [[existence of outward pointing function on the boundary of a manifold|X]] is $-e_1$ and at $1$ it is $e_1$. Therefore the [[induced orientation]] gives $\iota_{-e_1} = -1$ and $\iota_{e_1} = 1$.
+#todo: ??

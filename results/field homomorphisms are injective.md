@@ -1,0 +1,4 @@
+## Theorem
+Let $F$ be a [[field]] and let $R$ be a [[ring]]. Then a nontrivial [[ring homomorphism|homomorphism]] $f:F\to R$ is [[injective]].
+## Proof
+The [[kernel of ring homomorphism|kernel]] of a [[ring homomorphism|homomorphism]] is an [[ring ideal|ideal]]. Because the [[ring homomorphism|homomorphism]] is nontrivial, the [[kernel of ring homomorphism|kernel]] must be a [[proper ring ideal|proper]] [[ring ideal|ideal]] of $F$. But [[commutative ring is a field iff its only proper ideal is trivial|the only proper ideal of F is trivial]]. [[kernel condition for injective homomorphism|Thus]] the function is [[injective]]. 

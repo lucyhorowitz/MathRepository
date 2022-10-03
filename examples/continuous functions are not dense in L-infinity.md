@@ -1,0 +1,1 @@
+Let $f:\mathbb R\to \mathbb R$ be defined by $$f(x) =\begin{cases} 0 & x\leq 0\\ 1 &x > 0. \end{cases}$$ This function is [[bounded]] so it is in [[Lp space|L]]$_\infty$, but for any [[continuous]] function $g:\mathbb R\to \mathbb R$, the difference $|f-g|$ will be "large" on a set of positive measure near $x=0$. 

@@ -1,0 +1,7 @@
+---
+aliases: good pair
+---
+## Theorem
+Let $X$ be a [[topological space]] and let $A$ be a nonempty, [[closed]] [[subspace topology|subspace]] of $X$ that is a [[deformation retraction]] of some [[neighborhood]] of $X$. (Such a pair of spaces is called a **good pair**.) Then there is an [[exact sequence]] $$\cdots\to \tilde H_n(A) \to \tilde H_n(X) \to \tilde H_n(X/A) \to \tilde H_{n-1}(A) \to \tilde H_{n-1}(X) \to \cdots \to \tilde H_0(X/A) \to 0$$ where the arrows between the [[reduced homology group|reduced homology groups]] of $A$ and $X$ are labeled $i_*$ and are the [[group homomorphism|homomorphisms]] [[continuous functions induce homomorphisms on homology groups|induced]] by the inclusion $A\to X$, the arrows between the [[reduced homology group|reduced homology groups]] of $X$ and $X/A$ are the [[group homomorphism|homomorphisms]] [[continuous functions induce homomorphisms on homology groups|induced]] by the [[quotient vector space|quotient map]] $X\to X/A$, and the arrows going down an index are labeled $\partial$. 
+## Proof
+#write_proof [[short exact sequence of chain complexes]] [[short exact sequence]] [[sequence of homology groups of short exact sequence of chain complexes is exact]] The map $\partial$ is 

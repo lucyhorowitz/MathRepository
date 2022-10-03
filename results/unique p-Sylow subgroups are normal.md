@@ -1,0 +1,4 @@
+## Theorem
+Let $G$ be a [[group]] and let $p$ be a prime number. If the number of [[Sylow p-subgroup|p-Sylow subgroups]] of $G$ is one, then there is one [[Sylow p-subgroup|p-Sylow subgroup]] of $G$ and moreover it is [[normal subgroup|normal]] in $G$.
+## Proof
+Let $P$ be the unique [[Sylow p-subgroup|p-Sylow subgroup]] of $G$ and suppose that there exist $p\in P$ and $g\in G$ such that $gpg^{-1} \notin P$. We know that the order of $p$ must be $p^n$ for some $n\in \mathbb N$. Then $(gpg^{-1})^n = (g^{-1})^np^ng^n = (g^{-1})^ng^n = e,$ but this means that it is in $P$. Thus $P$ is [[normal subgroup|normal]].

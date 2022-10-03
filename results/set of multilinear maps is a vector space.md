@@ -1,0 +1,1 @@
+Let $V_1,\dots,V_n, W$ be [[definitions/vector space|vector spaces]], and let $\text{Maps}(\{V_1,\dots,V_n\}, W)$ be the set of [[multilinear|multilinear maps]]. It is also a [[definitions/vector space]].

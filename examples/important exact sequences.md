@@ -1,0 +1,4 @@
+1. A sequence $0\to A\to B$ (with the second arrow labeled $\alpha$) is [[exact sequence|exact]] if and only if the [[kernel of group homomorphism|kernel]] of $\alpha$ is trivial; [[kernel condition for injective homomorphism|equivalently]] if $\alpha$ is [[injective]].
+2. A sequence $A\to B\to 0$ (with the first arrow labeled $\beta$) is [[exact sequence|exact]] if and only if the [[image]] of $\beta$ is $B$; equivalently if $\alpha$ is [[surjective]].
+3.  A sequence $0\to A\to B\to 0$ (with the middle arrow labeled $\alpha$) is [[exact sequence|exact]] if and only if $\alpha$ is an [[group homomorphism|isomorphism]].
+4.  A sequence $0\to A\to B\to C\to 0$ (with the second arrow labeled $\alpha$ and the third labeled $\beta$) is [[exact sequence|exact]] if and only if $\alpha$ is [[injective]], $\beta$ is [[surjective]], and $\text{Ker}(\beta)= \text{Im}(\alpha)$. That is, if $\beta$ induces an [[group homomorphism|isomorphism]] $C\cong B/\text{Im}(\alpha)$.

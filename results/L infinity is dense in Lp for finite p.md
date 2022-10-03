@@ -1,0 +1,4 @@
+## Theorem
+Let $(X,\Sigma, \mu)$ be a (finite?) [[measure space]] and let $1 \leq p < \infty$. The set of functions belonging to $L_\infty(X,\mu)$ is [[dense]] in [[Lp space|L]]$_p(X,\mu)$.
+## Proof
+Fix $f \in L_p$. Then $$X = \bigcup_{n\in\mathbb N} \{x\mid |f(x)| \leq n\}.$$  Considered as a sequence of sets, the "partial unions" are increasing. Because [[induced measure|the integral is a measure]] and by [[continuity of measure]] it follows that $$\int_X |f|^p\text d\mu =\int_{\bigcup\limits{n\in\mathbb N}} |f|^p \text d\mu = \lim_{n\to\infty} \int_{\{x \mid |f(x)| \leq n\}}|f|^p.$$ Let $g_n = \begin{cases}f(x) & f(x) \leq n \\ 0 &\text{otherwise.}\end{cases}$ Clearly each $g_n \in L_\infty(X)$ and moreover $$||f-g_n||_p^p = \int_{\{x\mid |f(x)| > n\}}|f|^p\text d\mu \to 0$$ as $n \to \infty$.  We have found for the arbitrary $L_p$ function $f$ a sequence $g_n$ of $L_\infty$ functions that converges to $f$ as required, so $L_\infty$ is [[dense]] in $L_p$. 

@@ -1,0 +1,5 @@
+## Theorem 
+Under the [[absolute value induces a topology|absolute value topology]] from the $p$-adic [[absolute value]], the [[p-adic field]] is a [[topological field]]. 
+## Proof
+Given $\varepsilon =p^{-n}$ for some $n\in\mathbb Z$, let $\delta = p^{-n}$. Then for any $(a,b)\in \mathbb Q_p\times\mathbb Q_p$ under the [[supremum norm|sup]] [[norm]] (which we may choose for convenience because [[all norms on vector spaces are equivalent iff finite dimensional|norms on finite dimensional vector spaces are equivalent]]), if $|x-a|_p <p^{-n}$ and $|y-b|_p < p^{-n}$, then we have $$||(x,y)-(a,b)||_\infty \leq\max\{|x-a|_p, |y-b|_p\}<p^{-n}$$ by the [[non-Archimedean absolute value|ultrametric inequality]]. This shows that addition is [[continuous]] along with the additive inverse map. 
+#write_proof  for multiplication.

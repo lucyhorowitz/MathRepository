@@ -1,0 +1,4 @@
+## Theorem
+Let $A \subset\mathbb R^2$ be a set of positive [[Lebesgue measure]]. Then there exist $3$ points in $A$ that form the vertices of an equilateral triangle.
+## Proof
+Let $x\in A$ have [[measure density|density]] in $A$ given by $d(x,A)= 1$. Then we can choose a ball $B$ centered at $x$ such that $\mu(A\cap B) > 0.9\mu(B)$. Let $A'$ be the rotation of $A$ by $\frac{\pi}{3}$ about $x$. Then $\mu(A'\cap B) = \mu(A\cap B) > 0.9\mu(B)$ because the [[Lebesgue measure is translation invariant]]. Thus $\mu(A\cap A'\cap B) > 0$, so there exists $y \in A\cap A'$ that is not equal to $x$. Moreover, there is a point $z \in A$ such that the angle from $y$ to $z$ is $\frac{\pi}{3}$ and so that $||x-z|| = ||x-y||$. Thus we have found a triangle contained in $A$. By repeating this process multiple times and with different appropriate angles, we can find any degree of regular polygon in any set of positive [[Lebesgue measure]].

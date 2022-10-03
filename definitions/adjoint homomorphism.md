@@ -1,0 +1,4 @@
+## Theorem
+Let $\mathfrak g$ be a [[Lie algebra]]. Then the map that sends the an element $x \in \mathfrak g$ to its [[adjoint representation of a Lie algebra|adjoint representation]] in the [[general linear algebra]] $\mathfrak{gl}(\mathfrak g)$ written $$\text{ad}:\mathfrak g\to \mathfrak{gl}(\mathfrak g)$$ is a [[Lie algebra homomorphism]].
+## Proof
+In order to be a [[Lie algebra homomorphism|homomorphism]], $\text{ad}$ must preserve the bracket. Thus we can see from the [[Lie algebra|Jacobi identity]] that $$\begin{align*}\text{ad}_{[x,y]}(z) &= [[x,y],z]\\ &= =[z,[x,y]] \\ &= [x,[y,z]] + [y,[z,x]] \\ &=\text{ad}_x([y,z]) - \text{ad}_y([x,z])\\ &= (\text{ad}_x\circ \text{ad}_y - \text{ad}_y \circ \text{ad}_x)(z).\end{align*}$$

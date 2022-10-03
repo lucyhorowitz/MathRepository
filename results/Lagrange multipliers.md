@@ -1,0 +1,4 @@
+## Theorem
+Let $U\subset\mathbb R^n$ be an [[open]] subset and let $f:U\to\mathbb R$ be [[differentiable]] on $U$. Let $F:U\to\mathbb R^m$ be a [[differentiable]] function with [[component function|component functions]] $F_i$ such that for all $x \in U$ with $F(x) = 0$, the [[differentiable|total derivative]]] $$DF(x):\mathbb R^n\to \mathbb R^m$$ is [[surjective]]. To find the [[local maximum|local maxima]] and [[local minimum|minima]] of $f$ [[restriction|restricted]] to the [[level set]] of $F$, one can solve the system of $n+m$ equations $$F_1(x) = 0, \dots, F_m(x) = 0$$ $$\frac{\partial f}{\partial x_i}(x) = \lambda_1 \frac{\partial F_1}{\partial x_i}(x) + \cdots + \lambda_m\frac{\partial F_m}{\partial x_i}(x)$$ for $x$.
+## Proof
+#write_proof [[implicit function theorem]][[critical point]]

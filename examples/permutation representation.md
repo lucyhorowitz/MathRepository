@@ -1,0 +1,3 @@
+Let $n\geq 2$, let $S_n$ be a [[symmetric group]], and let $V$ be an $n$-[[dimension of vector space|dimensional]] [[vector space]]. Let $\{e_i\}_{i=1}^n$ be a [[basis]] for $V$. The **permutation representation** of $G$ for this [[basis]] is given as follows:
+
+Every $v\in V$ may be written uniquely in the form $\sum\limits_{i=1}^n \alpha_ie_i$. Then $$\rho(\sigma)(v) = \rho(\sigma)\left(\sum\limits_{i=1}^n \alpha_ie_i\right) = \sum\limits_{i=1}^n \alpha_{\sigma(i)}e_i$$

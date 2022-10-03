@@ -1,0 +1,4 @@
+## Theorem
+Let $R$ be a [[unique factorization domain]] and let $F$ be its [[fraction ring|field of fractions]]. If $p$ is a [[polynomial ring|polynomial]] in $R[x]$ such that $p=AB$ for $A,B$ non-constant ([[properties of polynomial ring of integral domain|i.e.]] non-[[unit of a ring|unit]]) polynomials  in $F[x]$, then there exist $r,s \in F$ such that $a = rA\in R[x]$ and $b=sB\in R[x]$ and $p=ab$.
+## Proof
+#write_proof [[irreducible element of an integral domain|irreducible]] [[element of UFD is irreducible iff prime]] [[prime ideal]] [[quotient in polynomial ring is quotient in original ring]] [[integral domain]] 

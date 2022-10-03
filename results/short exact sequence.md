@@ -1,0 +1,1 @@
+An [[exact sequence]] $$0\to A\to B\to C\to 0$$ is called a **short exact sequence**. See the list of [[important exact sequences]] for conditions under which this sequence is exact.

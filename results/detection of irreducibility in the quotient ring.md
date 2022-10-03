@@ -1,0 +1,4 @@
+## Theorem
+Let $R$ be an [[integral domain]] and let $f$ be a [[monic]] [[polynomial ring|polynomial]] with coefficients in $R$. Let $I\subset R$ be an [[ring ideal|ideal]]. If $f+I \in (R/I)[x]$ cannot be factored into two [[polynomial ring|polynomials]] of strictly smaller [[degree of polynomial|degree]], then $f$ is [[irreducible element of an integral domain|irreducible]] in $R[x]$. 
+## Proof
+[[quotient in polynomial ring is quotient in original ring]] The proof is by contrapositive: if $f$ is not [[irreducible element of an integral domain|irreducible]] (i.e. reducible), [[monic polynomials in integral domains factor monically|then]] it factors into two polynomials of lower degree. 

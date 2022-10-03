@@ -1,0 +1,2 @@
+Let $f:D\to \mathbb R$ with $c$ a [[limit point]] of $D$. Let $$B_0(c,\delta)=B_-(c,\delta)\cup B_+(c,\delta) = (c-\delta,c)\cup (c,c+\delta).$$ the 
+**limit supremum of the function $f$ at $c$** is defined by $$\limsup_{x\to c}f(x) = \inf_{\delta > 0}\sup_{x\in B_0(c,\delta)\cap D}f(x)$$  where $\inf$ and $\sup$ denote the [[infimum]] and [[supremum]] of a given set, respectively. 

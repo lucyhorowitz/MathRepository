@@ -1,0 +1,2 @@
+## Theorem
+Let $U\subset\mathbb R^{n-1}$ be [[compact]] and [[rectifiable]] and let $\phi,\psi: C \to\mathbb R$ be [[continuous]] functions such that $\phi(x) \leq \psi(x)$ for all $x \in C$. Let $S = \{(x,t) \mid x \in C, \phi(x) \leq t \leq \psi(x)\} \subset\mathbb R^n$ be a [[simple region]] in $\mathbb R^n$ and $f: S \to \mathbb R$ a [[continuous]] function. Then $f$ is [[Riemann integrable]] over $S$ and $$\int_S f = \int_C \int_{\phi(x)}^{\psi(x)} f(x,t).$$

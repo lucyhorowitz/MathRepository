@@ -1,0 +1,4 @@
+## Theorem
+The [[homology group|homology groups]] of an [[exact sequence]] are trivial.
+## Proof
+Denote the [[exact sequence]] by $$\cdots \to A_{n+1}\to A_n \to A_{n-1}\to \cdots$$ where the arrow between $A_{k+1}$ and $A_{k}$ is labelled $\alpha_{k+1}$. By definition, the [[kernel of group homomorphism|kernel]] of one [[group homomorphism|homomorphism]] equals the [[image]] of the previous one, so we trivially have the inclusion $$\text{Im}(\alpha_{n+1})\supset \text{Ker}(\alpha_n)$$ so that simple computations of the requisite [[quotient by subgroup|quotient groups]] show that they are all trivial.

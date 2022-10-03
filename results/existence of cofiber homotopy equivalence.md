@@ -1,0 +1,4 @@
+## Theorem
+Let $X$ and $Y$ be [[compactly generated]] [[topological space|topological spaces]] such that $A$ is a [[closed]] [[subspace topology|subspace]] of both $X$ and $Y$ so that the maps $i:A\to X$ and $j:A\to Y$ are both [[cofibration|cofibrations]]. Let $f:X\to Y$ be a [[continuous]] function such that $f\circ i = j$. Then if $f$ is a [[homotopy equivalence of spaces]], it is a [[category of spaces under A|cofiber homotopy equivalence]].
+## Proof
+#write_proof  [[category of spaces under A]] [[cofibration|homotopy extension property]] [[maps decompose as cofibration and homotopy equivalence]]

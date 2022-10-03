@@ -1,0 +1,1 @@
+Two sets $A$ and $B$ are **equidecomposable** if there exists $n \in \mathbb N$ such that $$A = \bigcup_{i=1}^n A_i\text{ and } B = \bigcup_{i=1}^n B_i$$ where the $A_i$ are all pairwise disjoint, the $B_i$ are all pairwise disjoint, and $A_i$ is [[isometry|isometric]] to $B_i$ for all $i$.

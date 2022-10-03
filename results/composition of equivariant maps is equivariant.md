@@ -1,0 +1,2 @@
+## Theorem
+Let $G$ be a [[group]] [[group action|acting]] on the set $X$, $Y$ and $Z$ and let $f:X\to Y$ and $g:Y\to Z$ be $G$-[[equivariant map|equivariant]] functions. Then the composition $gf$ is also $G$-[[equivariant map|equivariant.]]

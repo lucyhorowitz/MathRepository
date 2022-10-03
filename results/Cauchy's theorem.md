@@ -1,0 +1,5 @@
+## Theorem
+Let $G$ be a finite [[group]] and let $p$ be a prime number. If $p$ divides the [[order of a group|order]] of $G$, then there exists an element $g$ in $G$ whose [[order of a group element|order]] is $p$. 
+## Proof 1
+We proceed by induction on the [[order of a group|order]] of $G$. For $|G| = p$, every element is of order $p$ because [[classification of groups of prime order|prime-order groups are cyclic]].
+First, let $G$ be [[abelian]] and choose $e\neq a\in G$. Let $H = \langle a\rangle$ be the [[cyclic group]] [[generating set of a group|generated]] by $a$. If $p$ divides $|H|$, then $a^{|H|/p}$ is an element of [[order of a group element|order]] $p$. If $p$ does *not* divide $|H|$, then because it divides $|G|$ it must divide the [[index of a subgroup|index]] of $H$ in $G$. Because $G$ is [[abelian]], [[every subgroup of an abelian group is normal|every]] [[subgroup]] is [[normal subgroup|normal]], and therefore the [[quotient by normal subgroup|quotient]] $G/H$ is indeed a [[group]]. Thus $G/H$ contains an element of order $p$ by the inductive hypothesis. #write_proof (this is not the best use of my time right before the final)

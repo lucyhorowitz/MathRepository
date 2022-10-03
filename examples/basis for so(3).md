@@ -1,0 +1,2 @@
+These three [[matrix|matrices]] form a [[basis]] for the [[Lie algebra]] $\mathfrak{so}(3)$ [[Lie algebra of SO(n) is real anti-self-adjoint matrices|of]] the [[special unitary group]] $\text{SU}(2)$:
+$$F_1 = \begin{bmatrix}0&0&0\\0&0&-1\\0&1&0\end{bmatrix},\quad F_2 = \begin{bmatrix}0&0&1\\0&0&0\\-1&0&0\end{bmatrix},\quad F_3=\begin{bmatrix}0&-1&0\\1&0&0\\0&0&0\end{bmatrix}.$$ Moreover, they satisfy the commutation relations $$[F_1,F_2]=E_3,\quad [F_2,F_3] = F_1,\quad [F_3,F_1]=F_2.$$

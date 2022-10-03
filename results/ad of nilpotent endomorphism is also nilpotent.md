@@ -1,0 +1,4 @@
+## Theorem
+Let $\mathfrak{gl}(V)$ be the [[general linear algebra]] on the [[vector space]] $V$. If $x \in \mathfrak{gl}(V)$ is a [[nilpotent]] [[endomorphism]], then $\text{ad}(x)$ is also [[nilpotent]]. 
+## Proof
+Associate to $x$ two [[endomorphism|endomorphisms]] of the [[ring]] $\text{End}(V)$: left translation $\lambda_x(y) = xy$ and right translation $\rho_x(y) = yx$. Since $x$ is [[nilpotent]], so are $\lambda_x$ and $\rho_x$. These operations also [[commute]]. In any [[ring]], the [[sum of commuting nilpotents in a ring is nilpotent|sum/difference of commuting nilpotents is also nilpotent]], so $\text{ad}(x) = \lambda_x-\rho_x$ is also [[nilpotent]].

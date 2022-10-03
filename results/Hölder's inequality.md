@@ -1,0 +1,6 @@
+## Theorem
+Let $1\leq p,q\leq \infty$ be real numbers such that $\frac{1}{p} +\frac{1}{q} = 1$. Let $f \in$ [[Lp space|L]]$_p$ and let $g \in L_q$. Then $fg \in L_1$ and $||fg||_1 \leq ||f||_p||g||_q$.
+## Proof
+The inequality is trivial if $||f||_p = 0$ or $||g||_q=0$, [[zero integral of a nonnegative function|because]] then one of the functions would be zero [[almost everywhere]] and then so is $|fg|$, giving the result. So suppose instead that (without loss of generality by normalizing) that $||f||_p = ||g||_q = 1$. Then for fixed $x$, let $a = |f(x)|$ and $b = |g(x)|$ as in [[Young's inequality]]. [[Lebesgue integral|Integrating]] yields $$||fg||_1 = \leq\frac{1}{p}||f||_p^p + \frac{1}{q}||g||_q^q,$$ as desired. 
+
+Note that when $p=1$ and $q = \infty$, the inequality holds because $||g||_\infty$ is the [[essential supremum]] of $g$, meaning that $|g(x)| \leq ||g||_\infty$ for [[almost everywhere|almost every]] $x$ and consequently $$||fg||_1=\int|fg| \leq \int||g||_\infty |f| = ||f||_1||g||_\infty.$$

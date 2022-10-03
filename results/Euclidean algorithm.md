@@ -1,0 +1,1 @@
+Let $R$ be a [[Euclidean domain]]. #todo  

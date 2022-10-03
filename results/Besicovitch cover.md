@@ -1,0 +1,1 @@
+Let $A\subset \mathbb R^n$. A **Besicovitch cover** of $A$ is a collection $\mathcal B$ of balls such that for each $x\in A$, there is a ball $B \in \mathcal B$ centered at $x$. 

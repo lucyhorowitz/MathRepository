@@ -1,0 +1,1 @@
+A sequence $\{A_n\}_{n\in \mathbb N}$ of sets is **descending** if whenever $m > n$, $A_m \subset A_n$.

@@ -1,0 +1,4 @@
+## Theorem
+Let $M \subset\mathbb R^n$ be a [[compact]] [[oriented manifold|oriented]] [[embedded m-dimensional manifold with boundary]] and let $\eta$ be an [[differential k-form|(m-1)-form]] on $M$. Then the [[integral of m-form on manifold|integral]] of the [[differential of a k-form|differential]] of $\eta$ over $M$ is the integral of $\eta$ over the [[boundary points of a manifold|boundary]]: $$\int_M d\eta = \int_{\partial M}\eta$$
+## Proof
+#write_proof  [[local parametrization]] [[rectangle]] [[partition of unity]] [[interior]] [[support]] [[linearity of the integral]] [[chart]] [[Fubini's theorem]] [[Fundamental Theorem of Calculus]]

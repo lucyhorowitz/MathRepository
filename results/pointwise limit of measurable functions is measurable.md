@@ -1,0 +1,4 @@
+## Theorem
+A function $f:X\to \mathbb R$  on the [[measure space]] $(X,\Sigma)$ that is the [[pointwise convergence|pointwise limit]] of [[measurable function|measurable]] functions is itself [[measurable function|measurable]].
+## Proof
+Let $\{f_n\}_{n\in\mathbb N}$ be a sequence of functions $f_n: X\to \mathbb R$ [[pointwise convergence|converging pointwise]] to $f$. [[pointwise equality of limsup and liminf|Then]] $$f = \liminf_{n\to\infty} f_n = \limsup_{n\to\infty}f_n.$$ Because the [[limit supremum of sequence of measurable functions is measurable|limit supremum]] and [[limit infimum of sequence of measurable functions is measurable|infimum]] of the sequence are both [[measurable function|measurable]] $f$ is itself [[measurable function|measurable]].

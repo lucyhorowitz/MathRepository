@@ -1,0 +1,6 @@
+## Theorem
+Let $R$ be a [[unique factorization domain]]. Then every [[irreducible element of an integral domain|irreducible]] element of $R$ is [[prime element of an integral domain|prime]].
+## Proof
+Because [[prime elements in integral domains are irreducible]] and UFDs are [[integral domain|integral domains]], it only remains to show that [[irreducible element of an integral domain|irreducible]] implies [[prime element of an integral domain|prime]]. 
+
+Let $p$ be [[irreducible element of an integral domain|irreducible]] in $R$ and suppose that $p$ [[division in a ring|divides]] $ab$ for some $a,b\in R$. Then $ab=pc$ for some $c\in R$. Because $R$ is a [[unique factorization domain]], we can write $a$, $b$, and $ab$ as a product of [[irreducible element of an integral domain|irreducibles]]. By uniqueness of the factorization, then $p$ must be [[associate elements in an integral domain|associate]] to one of the irreducibles in the factorization of $ab$. But it must occur in at least one of the factorizations, so we have that $p$ divides whichever (or both) that particular [[associate elements in an integral domain|associate]] appears in.

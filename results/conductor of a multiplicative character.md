@@ -1,0 +1,4 @@
+## Theorem
+Let $\psi$ be a nontrivial element of the [[Pontryagin dual]] $\widehat{\mathbb Q_p}$ of the [[p-adic field]] $\mathbb Q_p$. Then there exists $n\in\mathbb Z$ such that $\psi(x) = 1$ for all $x$ in the $n$th power of [[curly P]] $\mathcal P$ and moreover there exists $y\in \mathcal P^{n-1}$ such that $\psi(y) \neq 1$.  Such $\mathcal P^n$ is then called the **conductor** of $\psi$.
+## Proof
+Let $\varepsilon=\frac{1}{2}$. Then because $\psi$ is by definition [[continuous]], there exists $\delta= p^{-n}$ such that if the [[p-adic field|p-adic]] [[absolute value]] $|x-0|_p<\delta$, then $|\psi(x)-1| < \frac{1}{2}$. But there are no nontrivial [[subgroup|subgroups]] of the [[circle group]] $\mathbb T$ contained in $B_{1/2}(1)$. Now choose the maximal such $n$ and we are done.

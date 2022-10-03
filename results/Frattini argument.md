@@ -1,0 +1,4 @@
+## Theorem
+Let $G$ be a finite [[group]] with [[normal subgroup|normal]] [[subgroup]] $H$. Let $P$ be a [[Sylow p-subgroup]] of $H$. Then $G$ is equal to the [[product of subgroups|product]] of $H$ and the [[normalizer of a group|normalizer]] of $P$ and the [[index of a subgroup|index]] of $H$ in $G$ divides the [[order of a group|order]] of the [[normalizer of a group|normalizer]] of $P$. That is, $$G = HN_G(P) \text{ and } [G:H]\mid |N_G(P)|.$$
+## Proof
+#write_proof [[product of subgroups with one factor normal is subgroup]] [[Sylow theorems]] [[conjugate subgroups]] [[fourth isomorphism theorem for groups]] 

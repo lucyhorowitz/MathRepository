@@ -1,0 +1,4 @@
+## Theorem
+Let $X$ be a [[CW complex]] that is the union of [[sub-CW complex|subcomplexes]] $A$ and $B$. Then the inclusion $(B,A\cap B)\hookrightarrow (X,A)$ induces [[group homomorphism|homomorphisms]] $H_n(B,A\cap B)\to H_n(X,A)$ for all $n$.
+## Proof
+Since pairs of [[CW complex|CW-complexes]] and their [[sub-CW complex|subcomplexes]] are [[exact sequence on reduced homology of space and retractable subspace|good]] and the [[quotient map on good pairs inuces isomorphisms]], we can pass to the [[quotient vector space|quotient spaces]] $B/(A\cap B)$ and $X\cap A$. These are [[homeomorphism|homeomorphic]] if $A\cap B\neq \emptyset$. #todo: why this last step?

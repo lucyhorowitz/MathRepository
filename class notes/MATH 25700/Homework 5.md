@@ -1,0 +1,3 @@
+- [[Orbit-Stabilizer Theorem]]
+- [[stabilizer condition for unique equivariant G-map with given value at a point]]
+- [[faithful group action]]

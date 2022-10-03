@@ -1,0 +1,1 @@
+Let $n\geq 2$, let $S_n$ be a [[symmetric group]], and let $V$ be a one-[[dimension of vector space|dimensional]] [[vector space]]. The **alternating** or **sign representation** of $S_n$ is the map that sends every permutation to its [[sign of permutation|sign]]. That is, $$\rho: S_n\to \text{GL}(V) \text{ where }\rho(\sigma) = \text{sign}(\sigma).$$

@@ -1,0 +1,6 @@
+## Theorem
+Let $X$ be a [[based topological space]] such that $X = U\cup V$ for $U$, $V$, and $U\cup V$ [[path-connected]] [[open]] [[neighborhood|neighborhoods]] of the basepoint of $X$ and such that $V$ is [[simply connected]]. Then the inclusion(?) map between [[fundamental group|fundamental groups]] $\pi_1(U) \to \pi_1(X)$ is an [[epimorphism]] whose [[kernel of group homomorphism|kernel]] is the smallest [[normal subgroup]] of $\pi_1(U)$ that contains the [[image]] of $\pi_1(U\cap V)$.
+## Proof
+Note that because $V$ is [[simply connected]], its [[fundamental group]] is $0$. Let $N$ be the named kernel (well, we don't know that it is the kenrel yet?) and consider the [[commutative diagram]]
+![[Screen Shot 2022-01-27 at 1.31.28 PM.png]]
+The [[universal property for quotients]] gives rise to the map $\xi$ which we can see to be an [[group homomorphism|isomorphism]] because $\pi_1(U)/N$ is the [[pushout]] in the [[category of groups]] of the [[group homomorphism|homomorphisms]] $\pi_1(U\cap V)\to \pi_1(U)$ and $\pi_1(U\cap V) \to 0$.

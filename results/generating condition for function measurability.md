@@ -1,0 +1,4 @@
+## Theorem
+Let $(X,\Sigma)$ and $(Y,T)$ be [[measurable|measurable spaces]] such that $T$ is [[generate a σ-algebra|generated]] by some subset of the [[power set]] $\mathcal G \subset \mathcal P(Y)$ of $Y$. Then a function $f: X\to Y$ is [[measurable function|measurable]] if and only if for every $G \in \mathcal G$, we have $f^{-1}(G) \in \Sigma$ .
+## Proof
+Because [[set operations under inverse image|union, intersection, and complement are preserved under the inverse image]], we have that $\mathcal M = \{B \subset Y \mid f^{-1}(B)\in\Sigma\}$ is itself a [[σ-algebra]]. By hypothesis, we have $\mathcal G \subset \mathcal M$, so $T \subset \mathcal M$, and consequently $f$ is [[measurable function|measurable]]. (Both directions satisfied #todo?)

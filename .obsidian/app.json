@@ -1,0 +1,16 @@
+{
+  "fileSortOrder": "alphabetical",
+  "alwaysUpdateLinks": true,
+  "spellcheck": true,
+  "newFileLocation": "current",
+  "defaultViewMode": "preview",
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "attachmentFolderPath": "images",
+  "livePreview": false
+}

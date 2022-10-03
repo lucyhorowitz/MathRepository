@@ -1,0 +1,4 @@
+## Theorem
+Let $G$ be a [[group]]. Then the [[group algebra]] $\mathbb C[G]$ is [[algebra homomorphism|isomorphic]] to a [[direct sum of algebras|direct sum]] of matrix algebras. That is $$\mathbb C[G] = \bigoplus_{\chi\text{ irred.}} M_{d_\chi}(\mathbb C),$$ so that for each [[irreducible representation|irreducible]] [[character of a representation|character]] of $G$, there is a copy of the [[algebra over a field|algebra]] over $\mathbb C$ consisting of $(d_\chi\times d_\chi)$-matrices  with complex entries where $d_\chi$ is the [[dimension of group representation|dimension]] of the [[group representation|representation]] $\chi$. 
+## Proof
+#write_proof 

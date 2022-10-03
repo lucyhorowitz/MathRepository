@@ -1,0 +1,10 @@
+## Theorem
+Let $A\subset [0,1]$ be a set of [[meager|first category]]. Then for [[comeager|residually]] many [[continuous]] functions $f:[0,1]\to\mathbb R$. the [[image]] $f(A)$ is of [[measure zero]]. 
+## Proof
+First we define a [[pseudometric]] $\rho(A,B)$ on the [[Lebesgue measure|Lebesgue]] [[σ-algebra]] on $[0,1]$ using the [[symmetric difference]] so that $\rho(A,B) = \mu(A\triangle B)$. Clearly this is a [[pseudometric]], and moreover [[continuity of measure|measure is continuous]] in the [[topological space|topology]] induced by the [[pseudometric]]. 
+
+Suppose without loss of generality that $A$ is [[closed]] and [[nowhere dense]]. We have that $$Y = \{f\in C[0,1] \mid \mu(f(A)) = 0\} = C[0,1]\setminus \bigcup X_n.$$ If each $X_n$ is of [[meager|first category]], then $Y$ is [[comeager|residual]]. To show that each $X_n$ is of [[meager|first category]], we show that they are [[closed]] and have empty [[interior]]. 
+
+Let $\{f_n\}_{n\in\mathbb N}$ be a sequence of functions in $X_n$ [[uniform convergence|converging]] to $f \in C[0,1]$. We wish to show that $f \in X_n$. We have that $f_n(A) \to f(A)$, and because [[continuity of measure|measure is continuous]], it [[continuous|sends]] [[sequence convergence|convergent sequences]] to convergent sequences. Thus $\mu(f_n(A)) \to \mu(f(A))$, so $\mu(f(A)) \geq 1/n$, and $f \in X_n$. Thus $X_n$ is [[closed]].
+
+Now let $f \in X_n$ and suppose for the sake of contradiction that there exists $\varepsilon > 0$ for which $B(f,\varepsilon) \subset X_n$. For every open $U \subset [0,1]$, there exists $(a,b) \subset U$ such that $(a,b)\cap A = \emptyset$. Let $g$ be a function such that $g\in B(f,\varepsilon)$ and that is constant on $U\setminus (a,b)$ and [[continuous]] on $(a,b)$. Then $g(A)$ will have [[measure zero]], because there are at least countably many [[open]] sets $U$ for which we can find such $g$. Thus $X_n$ has empty [[interior]], and $Y$ is [[comeager|residual]].

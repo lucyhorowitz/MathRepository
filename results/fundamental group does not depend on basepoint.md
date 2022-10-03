@@ -1,0 +1,5 @@
+## Theorem
+Let $X$ be a [[topological space]]. The [[fundamental group]] of $X$ does not actually depend on the choice of basepoint. 
+## Proof
+Let $x,y \in X$. We will show that there is a canonical way to identify $\pi_1(X,x)$ and $\pi_1(X,y)$. Let $a:x\to y$ be a [[path]] in $X$. Define $\gamma[a]:\pi_1(X,x) \to \pi_1(X_y)$ by $\gamma[a][f] = [a\cdot f \cdot a^{-1}]$ for all $f\in \pi_1(X,x)$. Let $b:y\to z$ be another [[path]] in $X$. Note that $$\gamma[b\cdot a] = [(b\cdot a) \cdot f \cdot (a^{-1}\cdot b^{-1})] = [b\cdot [a\cdot f \cdot a^{-1}] \cdot b^{-1}] = \gamma[b] \circ \gamma[a].$$ Thus $\gamma[a]$ is an [[group homomorphism|isomorphism]] and, after writing it like $$\gamma[b\cdot a] = [b\cdot a][f][(b\cdot a)^{-1}],$$ we can see that it has [[inverse function|inverse]] $\gamma[a^{-1}]$. 
+If $\pi_1(X,x)$ is [[abelian]], then $\gamma[b\cdot a][f] = [f]$. Thus if we let $a': x\to y$ be another [[path]], setting $b=(a')^{-1}$ shoes that $\gamma[a]$ is independent of the choice of path $a$, so $\pi_1(X,x)$ is canonically identified with $\pi_1(X,y)$.

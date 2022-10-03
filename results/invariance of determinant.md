@@ -1,0 +1,4 @@
+## Theorem
+Let $V$ be an $n$-[[dimension of vector space|dimensional]] [[definitions/vector space]] with [[basis]] $v_1,\dots,v_n$. Let $T: V\to V$ be a [[linear transformation]] with [[matrix of a linear transformation|associated matrix]] $A$ with respect to the given [[basis]]. For all $w \in \wedge^n(V)$ the $n$-fold [[exterior power of a vector space|exterior product]] of $V$, the [[exterior power of linear transformation|exterior product]] of $T$ scales $w$ by the [[determinant]] of $A$. That is,  $$\wedge^n(T)(w) = \text{det}(A)w,$$ and the [[determinant]] does not depend on the choice of [[basis]].
+## Proof
+#write_proof 

@@ -1,0 +1,4 @@
+## Theorem
+Let $C_c^\infty(\mathbb Q_p)$ be the [[Schwartz space]] of [[p-adic field|Qp]]. Then if $\xi_n\in C_c^\infty(\mathbb Q_p)$ is the [[characteristic function]] of some power of [[curly P]] (that is, if $\xi_n=\chi_{\mathcal P^n}$, then the [[Fourier transform over Qp|Fourier transform]] of $\xi_n$ is $$\widehat \xi_n = p^{-n}\xi_{-n}.$$
+## Proof
+By definition, $$\widehat\xi_n(y) = \int_{\mathbb Q_p} \xi_n\psi(yx)\text dx = \int_{\mathcal P^n}\psi(yx)\text dx$$ where the [[Lebesgue integral|integral]] is taken with respect to the [[Haar measure on additive Qp]]. We can follow exactly the proof of [[Fourier transform of characteristic function of coset of power of curly P|this]] result to achieve our goal.

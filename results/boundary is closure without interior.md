@@ -1,0 +1,2 @@
+## Proposition
+The [[boundary]] of a subset $A$ of a [[topological space]] $X$ is given by the complement of the [[interior]] of $A$ in the [[closure]] of $A$. That is, $$\partial A = \overline A \setminus \text{int}(A).$$

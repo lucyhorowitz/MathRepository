@@ -1,0 +1,2 @@
+## Theorem
+Let $f:\mathbb C\to\mathbb C$, and write it as follows: $$f(z) = u(x,y) + iv(x,y)$$ where $z\in \mathbb C$ is such that $z = x+iy$ and $u,v:\mathbb R^2\to \mathbb R$. Then $f$ is [[analytic]] if and only if $$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y} \text{ and } \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}.$$

@@ -1,0 +1,6 @@
+## Theorem
+In every [[complete metric space]], an [[Fσ]] set is of [[meager|first category]] if and only if it has empty [[interior]]. 
+## Proof
+Suppose that an [[Fσ]] set $F \subset X$ has nonempty [[interior]]. Then $\text{int}(F) \subset F$ is [[open]]. [[Baire category theorem|Since]] $X$ is [[complete metric space|complete]], it is [[Baire space|Baire]], and therefore every nonempty [[open]] set in $X$ is of [[nonmeager|second category]]. Thus $F$ must be of [[nonmeager|second category]] because it contains a [[nonmeager|second category]] set as a subset.
+
+Now suppose that $F$ is of [[nonmeager|second category]]. Then it cannot be expressed as the [[countable]] union of [[nowhere dense]] sets. Since $F$ is [[Fσ]], we can write it as the union $F = \bigcup\limits_{n\in\mathbb N} F_n$ where each $F_n$ is [[closed]], and because $F$ is of [[nonmeager|second category]], at least one is not [[nowhere dense]]. Those $F_i$ have nonempty [[interior]]. [[topological space|Since]] the union of [[interior is union of all open subsets|open]] sets is [[open]], the set $H = \bigcup\limits_{n\in\mathbb N} \text{int} F_n$ is [[open]] and contained within $F$. Thus $F$ has nonempty [[interior]]. QED

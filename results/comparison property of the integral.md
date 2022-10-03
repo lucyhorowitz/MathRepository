@@ -1,0 +1,2 @@
+## Theorem
+Let $S \subset \mathbb R^n$ be a [[bounded]] region and let $f,g: S \to \mathbb R$ be [[bounded]] functions. If $f$ and $g$ are [[Riemann integrable]] over $S$ and $f(x) \leq g(x)$ for all $x$, then $$\int_S f \leq \int_S g.$$

@@ -1,0 +1,4 @@
+## Theorem
+Let $H$ be a [[Hilbert space]]. Suppose $T:H\to H$ is a [[compact]] [[self-adjoint]] [[linear transformation]] of infinite [[rank]]. Then there exists a [[Hamel basis]] $\{\psi_k\}_{k\in\mathbb N}$ for the [[orthogonal complement]] of the [[kernel of linear transformation|kernel]] $((\text{ker}(T))^\perp$ and a sequence of nonzero real numbers $\{\lambda_k\}_{k\in\mathbb N}$ that [[sequence convergence|converges]] to $0$ and such that $T(\psi_k)=\lambda_k\psi_k$ for all $k$. Thus $$K(h) = \sum_{k\in\mathbb N} \lambda_k\langle \psi_k, h\rangle \psi_k.$$
+## Proof
+#write_proof [[Hilbert-Schmidt lemma]] [[norm of linear self-adjoint transformation on a Hilbert space]] [[orthogonal complementation preserves subset order under self-adjoint linear transformation]] [[orthogonal]] [[quadratic form]] [[polarization identity]] 

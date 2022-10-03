@@ -1,0 +1,8 @@
+## Theorem
+Let $(X,\Sigma,\mu)$ be a [[measure space]]. For $1\leq p \leq \infty$, the [[simple function|simple functions]] are [[dense]] in [[Lp space|L]]$_p(X)$.
+## Proof
+Using the standard decomposition of a function into its positive and negative components, we can without loss of generality show that any positive $L_p(X)$ function can be approximated by a [[simple function]]. 
+
+First let $p=\infty$ and choose $f \in L_\infty(X)$ Note that we may assert that $f(x) \leq M$ for all $x \in X$ because any function $g\in L_\infty(X)$ may only take on an infinite value on a set of measure zero (because functions in $L_\infty(X)$ are defined to have finite [[essential supremum]]), so we may choose a representative $f$ of the [[equivalence class]] of functions that are equal to $g$ on a set of measure zero that satisfies the property that $|f(x)| <\infty$ for all $x \in X$. Then let $$A_{k,n} = \left\{ x\mid \frac{kM}{n} \leq f(x) \leq \frac{(k+1)M}{n}\right\}$$ for $k,n\in \mathbb N$. Define the sequence of [[simple function|simple functions]] $$g_n = \sum_{k=-n}^{n-1}k\chi_{A_{k,n}}.$$ Then for each $n \in \mathbb N$, $|f(x) - g_n(x)| < \frac{1}{n}$ for all $x$, so $g_n$ [[pointwise convergence|converges pointwise]] to $f$, as desired.
+
+Suppose that $X$ is a finite measure space and let $1\leq p < \infty$ let $f\in L_p(f)$. From the above, for all $\varepsilon > 0$ we can find a simple function $g$ such that $||f-g||_\infty < \varepsilon$. Then $$||f-g||_p^p - \int_X|f-g|^p \leq \varepsilon^p\mu(X),$$ which can be made as small as desired by appropriate choice of $\varepsilon$. 

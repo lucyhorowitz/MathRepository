@@ -1,0 +1,6 @@
+## Theorem
+Let $\mathcal B$ be a [[groupoid]] and choose a base object $b\in \mathcal B$. Let $G = \pi(\mathcal B,b)$ as defined in the [[star of an object|star]]. Then there exists a [[functor]] $$\mathcal E(-): \mathcal O(G)\to \text{Cov}(\mathcal B)$$ between the [[category of canonical orbits]] of $G$ and the [[category of coverings of groupoids|category of coverings]] of $\mathcal B$ that is an [[equivalence of categories]]. 
+
+For each [[subgroup]] $H$ of $G$, the [[covering space]] $p:\mathcal E(G/H)\to \mathcal B$ has a canonical base object $e$ in its [[fiber]] over $b$ such that $$p(\pi(\mathcal E(G/H)),e)) = H.$$ Moreover, $F_b = G/H$ as a [[group action|G-set]] where the [[group action]] is the usual [[action of a group on quotient by subgroup]]. For a [[equivariant map|G-map]] $\alpha:G/H\to G/K$ in $\mathcal O(G)$, the restriction of $\mathcal E(\alpha):\mathcal E(G/H)\to \mathcal E(G/K)$ to [[fiber|fibers]] over $b$ coincides with $\alpha$.
+## Proof
+#write_proof [[bijective]] [[star of an object|star]][[universal covering of groupoids]] [[Fundamental Theorem of Covering Groupoid Theory]] [[group-level determination of coverings of a groupoid]][[map of coverings of groupoids is a covering]]

@@ -1,0 +1,7 @@
+---
+aliases: p-adic expansion
+---
+## Theorem
+For each element of the [[p-adic field]] $\mathbb Q_p$ there exists a unique sequence of integers $\{a_n\}_{n=\text{val}(x)}^\infty$ from the set $\{0,1,\dots,p-1\}$ such that $$x=\sum_{n=\text{val}(x)}^\infty a_np^n \in\mathbb Q_p.$$ The $a_n$ are called the **digits** of the $p$-adic expansion of $x$. 
+## Proof
+Let the [[valuation]] of $x$ be $n$. Then $y = p^{-n}x$ satisfies $|y|_p = |p^{-n}|_p|x|_p = 1$ so that $y$ is a [[p-adic integers|p-adic integer]]. Then because [[the image of Z in p-adic integers is dense]], we can find $b_0 \in \{0,1,\dots, p-1\}$ such that $|y-b_0| < p^0 =1$. Then $y-b_0$ is also a [[p-adic integers|p-adic integer]], so we can find $b_1\in \{0,1,\dots,p-1\}$ such that $|y-b_0-b_1p|< p^{-1}$, and so on. Uniqueness follows from modular number theory. If for some index $i$ there were two numbers $b_i$ and $b_i'$ such that $$\left|y-\sum_{j=1}^{i-1}b_jp^j - b_ip^i\right|<p^{-i} \text{ and }\left|y-\sum_{j=1}^{i-1}b_jp^j - b_i'p^i\right|<p^{-i},$$ then $b_i'-b_i$ would have to be a multiple of $p$. However, there are no two distinct numbers in the set $\{0,1,\dots, p-1\}$ whose difference is a multiple of $p$. Set $a_k = b_{n+1}$ for each $k\geq 0$, and then $$x=\sum_{k=\text{val}(x)}^\infty a_kp^k$$ uniquely, as desired.

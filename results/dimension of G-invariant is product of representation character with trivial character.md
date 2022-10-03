@@ -1,0 +1,4 @@
+## Theorem
+Let $(V,\rho)$ be a [[group representation|representation]] of the finite [[group]] $G$, and denote the [[trivial group representation|trivial representation]] by $\text{triv}$. Then the [[dimension of vector space|dimension]] of the [[vector subspace]] of $V$ consisting of the [[G-invariant vectors]] is given by the [[Hermitian inner product on class functions]] of the [[character of a representation|character]] of $V$ with the [[character of a representation|character]] of $\text{triv}$. That is, $$\text{dim}(V^G) = \langle \chi_V, \chi_\text{triv}\rangle.$$
+## Proof
+#write_proof [[projection]]

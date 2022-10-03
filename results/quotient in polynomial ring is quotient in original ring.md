@@ -1,0 +1,4 @@
+## Theorem
+Let $R$ be a [[ring]] and $I$ an [[ring ideal|ideal]] of $R$. Then the [[polynomial ring]] of the [[quotient ring]] $(R/I)[x]$ is [[ring homomorphism|isomorphic]] to $R[x]/I[x]$.
+## Proof
+There is a natural [[ring homomorphism]] $\varphi: R[x]\to (R/I)[x]$ defined by $$a_nx^n +a_{n-1}a^{n-1} \cdots +a_0 \mapsto \pi(a_n)x^n +\pi(a_{n-1})x^{n-1} \cdots +\pi(a_0)$$ where $\pi:R\to R/I$ is the usual projection onto the [[quotient ring]]. The [[kernel of ring homomorphism|kernel]] of this map is exactly the set of polynomials whose coefficients are all elements of $I$. That is, $\ker(\varphi) = I[x]$. 

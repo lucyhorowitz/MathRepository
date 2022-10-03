@@ -1,0 +1,6 @@
+[[group homomorphism|homomorphism of vector spaces]]
+[[linear transformation|homomorphism of vector spaces]]
+[[ring homomorphism|homomorphism of rings]]
+[[Lie algebra homomorphism|homomorphism of Lie algebras]]
+[[module homomorphism|homomorphism of modules]]
+[[algebra homomorphism|homomorphism of algebras]]

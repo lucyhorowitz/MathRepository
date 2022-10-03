@@ -1,0 +1,4 @@
+## Theorem
+Let $x$ be a [[p-adic field|p-adic]] number. Then its [[p-adic expansion is unique|p-adic expansion]] [[absolute convergence|converges absolutely]].
+## Proof
+The $n$th term of a [[p-adic expansion is unique|p-adic expansion]] takes the form $a_np^n$ with $a_n\in\{0,1,\dots,p-1\}$. In particular, each $a_n$ is a [[p-adic integers|p-adic integer]] so its absolute value is less than or equal to one, but because it is a usual integer the absolute values are exactly one. Then the limit of the absolute values of the terms of the expansion is $$\lim_{n\to\infty}|a_n p^n|_p = \lim_{n\to\infty}|a_n|_p|p^n|_p = \lim_{n\to\infty} p^{-n} = 0.$$ Finally, we know that [[series in p-adic numbers converges absolutely iff terms approach 0|such a series converges absolutely if and only if it approaches zero]], so we are done.

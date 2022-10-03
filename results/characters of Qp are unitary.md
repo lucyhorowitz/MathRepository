@@ -1,0 +1,4 @@
+## Theorem
+Let $\psi:\mathbb Q_p\to \mathbb C^\times$ be a [[multiplicative character]] of the [[p-adic field]]. Then $\psi$ is [[unitary multiplicative character|unitary]].
+## Proof
+First, note that $\mathbb Q_p$ is [[Qp is a topological field|in fact]] a [[topological field]], so it is a [[topological group]] as required. Now note that the [[p-adic integers]] $\mathbb Z_p$ [[p-adic integers are compact|is]] (are?) [[compact]] and so [[curly P is compact|are]] the powers of [[curly P]]. Then for all $k\in\mathbb Z$, $\psi(\mathcal P^k) \subseteq \mathbb T$ the [[circle group]] because all [[characters of compact LCAs groups are unitary]]. Then because $\mathbb Q_p$ [[Qp is union of powers of curly P|is the union of the]] powers of $\mathcal P$, i.e. because $$\mathbb Q_p = \bigcup_{k\in\mathbb Z} \mathcal P^k,$$ we must have that $\psi(\mathbb Q_p) \subseteq \mathbb T$.

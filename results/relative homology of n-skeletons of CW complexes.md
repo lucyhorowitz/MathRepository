@@ -1,0 +1,4 @@
+## Theorem
+Let $X$ be a [[CW complex]]. The [[relative homology groups|relative homology]] $H_k(X^n, X^{n+1})$ of the $n$, $n-1$-skeletons of $X$ is zero for $k\neq n$ and [[free group|free]] [[abelian]] for $k=n$ with a [[basis for abelian group|basis]] in [[bijective|bijection]] with the $n$-cells of $X$.
+## Proof
+The pair $(X^n, X^{n-1})$ is [[exact sequence on reduced homology of space and retractable subspace|good]]. The [[quotient vector space]] $X^n/X^{n-1}$ is a [[wedge sum]] of spheres. The [[inclusion on wedge sum induces isomorphism on direct sum if basepoints make good pairs]] and the [[quotient map on good pairs inuces isomorphisms]].

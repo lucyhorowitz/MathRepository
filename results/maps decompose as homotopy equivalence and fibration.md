@@ -1,0 +1,5 @@
+## Theorem
+Let $X$, $Y$ be [[compactly generated]] [[topological space|topological spaces]] and let $f:X\to Y$ be a [[continuous]] map. Then $f$ decomposes as the composite of a [[homotopy equivalence of spaces|homotopy equivalence]] and a [[fibration]]. 
+
+## Proof
+Recall the [[mapping path space]] $Nf = X\times_fY^I$ is the [[pullback]] and note that $f$ is the composite $X\overset{\nu}{\to}Nf\overset{\rho}{\to}Y$ where $\nu(x) = (x,c_{f(x)})$ (where $c_{f(x)}$ is the constant map at $f(x)$) and $\rho(x,\chi) = (\chi(1))$. Let $\pi:Nf\to X$ be the usual projection. Then $\pi\circ\nu = \text{id}$ and $\text{id}$ is [[homotopy|homotopic]] to $\nu\circ \pi$ because we can define a [[deformation retraction|deformation retract]] $h:Nf\times I \to Nf$ of $Nf$ onto the [[image]] $\nu(X)$ by $$h(x,\chi)(t) = (x,\chi_t)$$ for $\chi_t(s) = \chi((1-t)s)$. We can check that $\rho$ satisfies the [[fibration|covering homotopy property]] similarly to the proof that [[maps decompose as cofibration and homotopy equivalence]].

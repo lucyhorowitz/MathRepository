@@ -1,0 +1,10 @@
+## Theorem
+There exists a [[continuous]] function $f:[0,1]\to[0,1]$ for which the [[level set|level sets]] $\{x\mid f(x)=c\}$ are [[Cantor set|Cantor sets]] for each $c\in [0,1]$.
+## Proof
+We construct such a function $f$ by defining countably many points, and then extending continuously as we extended the [[Cantor function]] in class. First, let $f(0) =0$ and $f(1) = 1$. Iteratively, between any two consecutive points $a,b \in [0,1]$ for which a value $f(a),f(b)$ has already been defined, define $h=\frac{f(a) + f(b)}{2}$ and $k= \frac{b-a}{6}$ so that $$f(a+k) = h, f(a+2k) = f(b), f(a+3k) = h, f(a+4k)= f(a), f(a+5k) = h.$$ Now apply the extension to the rest of the real numbers in $[0,1]$.
+
+By the [[Archimedean principle]], for any $\varepsilon > 0$, there exists $n \in \mathbb N$ such that $\frac{1}{2^n} < \varepsilon$. Thus by construction of the function above, whenever $|x-y| < \frac{1}{6^n}$, we have $|f(x)-f(y)| < \frac{1}{2^n} < \varepsilon$, and $f$ is [[continuous]].
+
+By construction, two consecutive points are never equal because $f(0) \neq f(1)$. Thus for any sub[[interval]] $I \subset [0,1]$, there exist $x,y \in I$ such that $f(x) \neq f(y)$, so any [[level set ]] can contain no [[interval]] and must therefore have empty [[interior]]. 
+
+Fix $y \in [0,1]$ such that $y = \frac{m}{2^n}$ for some $m,n \in\mathbb N$. These points are [[dense]] in $[0,1]$ and $f$ is [[continuous]], so the result that follows can be extended to all level sets. Let $X_y = \{x \mid f(x) = y$. For any $x \in X_y$, let $x'$ be successor of $x$ when it was defined. Then $x < x'$, so let $d = \frac{x'-x}{6}$. Then at the next iteration of the construction, we have $x+ 4d \in X\_y$. We also have $x+d$ the successor to $x$ in this new iteration of the function. After $n$ steps, there exists a point $x_n = x + \frac{2(x'-x)}{3\cdot 6^n} \in X_y$. Therefore for any $\delta > 0$, there exists large enough $n$ so that $|x_n -x | < \delta$, and $x_n \in X_y$. No point is [[isolated point|isolated]], and because we also have that the set is [[bounded]] by virtue of being a subset of $[0,1]$, the level sets are [[Cantor set|Cantor]].

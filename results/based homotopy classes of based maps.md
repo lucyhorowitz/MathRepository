@@ -1,0 +1,1 @@
+Let $X$ and $Y$ be [[based topological space|based]] [[topological space|topological spaces]]. Let $[X,Y]$ denot the set of based [[homotopy equivalence of spaces|homotopy classes]] of based [[continuous]] maps $X\to Y$. The set has a natural basepont given by the [[homotopy class]] of the constant map from $X$ to the basepoint of $Y$. 
