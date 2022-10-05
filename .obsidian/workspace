@@ -7,12 +7,8 @@
         "id": "b0afb044e2cf6420",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "definitions/connected.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -49,8 +45,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "definitions/connected.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +93,17 @@
     "width": 234,
     "collapsed": true
   },
-  "active": "b0afb044e2cf6420",
+  "active": "4b6e6dae7ef0848c",
   "lastOpenFiles": [
+    "class notes/MAT.md",
+    "README.md",
+    "definitions/connected.md",
     "definitions/subgroup.md",
     "class notes/MATH 26700/Fulton-Harris.md",
     "class notes/MATH 26700/Lecture 18.md",
     "class notes/MATH 26700/Lecture 17.md",
     "class notes/MATH 26700/Lecture 16.md",
     "results/Burnside's p-q theorem.md",
-    "definitions/order of a group.md",
-    "results/a group is solvable iff normal subgroup and its quotient are solvable.md",
-    "definitions/quotient by normal subgroup.md",
-    "definitions/solvable group.md"
+    "definitions/order of a group.md"
   ]
 }
