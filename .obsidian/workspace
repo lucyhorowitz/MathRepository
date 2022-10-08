@@ -4,12 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "b0afb044e2cf6420",
+        "id": "f7c3de2cf9ad08a4",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "class notes/MATH 32500/Lecture 1.md",
+            "mode": "source",
+            "source": true
+          }
+        },
+        "group": "64386092ecf20534"
+      },
+      {
+        "id": "1f1189ba760e072a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "class notes/MATH 32500/Lecture 1.md",
+            "mode": "preview",
+            "source": true
+          }
+        },
+        "group": "64386092ecf20534"
       }
     ],
     "direction": "vertical"
@@ -36,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "connected",
+                "query": "game",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -65,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "class notes/MATH 32500/Lecture 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,20 +109,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234,
-    "collapsed": true
+    "width": 233.5
   },
   "active": "4b6e6dae7ef0848c",
   "lastOpenFiles": [
-    "class notes/MAT.md",
-    "README.md",
-    "definitions/connected.md",
-    "definitions/subgroup.md",
-    "class notes/MATH 26700/Fulton-Harris.md",
-    "class notes/MATH 26700/Lecture 18.md",
-    "class notes/MATH 26700/Lecture 17.md",
-    "class notes/MATH 26700/Lecture 16.md",
-    "results/Burnside's p-q theorem.md",
-    "definitions/order of a group.md"
+    "class notes/MATH 32500/Lecture 3.md",
+    "class notes/MATH 32500/Lecture 4.md",
+    "class notes/MATH 32500/unitary representations are completely reducible.md",
+    "class notes/MATH 32500/Lecture 5.md",
+    "definitions/Haar integral.md",
+    "class notes/MATH 32500/Lecture 1.md",
+    "class notes/MATH 32500/Lecture 2.md",
+    "definitions/unitary group representation.md",
+    "class notes/MATH 32500/unitary operator.md",
+    "definitions/adjoint of a linear transformation.md"
   ]
 }
