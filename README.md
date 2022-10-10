@@ -30,4 +30,4 @@ I have run spaCy v3.4 on the definitions and put the results into CoNLL-U format
 
 ### Cleaning up
 
-The notes are Markdown math notes so naturally they include Markdown and a *lot* of LaTeX. I removed certain symbols (pipes, dollar signs, brackets, octothorpes, newlines, backslashes) and words/phrases that generally do not make up the content of the notes (metadata, links, font names). The code I used to do this can be found as 
+The notes are Markdown math notes so naturally they include Markdown and a *lot* of LaTeX. I removed certain symbols (pipes, dollar signs, brackets, octothorpes, newlines, backslashes) and words/phrases that generally do not make up the content of the notes (metadata, links, font names). The code I used to do this can be found under [non-note files](https://github.com/lucyhorowitz/MathRepository/tree/main/non-note%20files) as [trimmper.ipnyb](https://github.com/lucyhorowitz/MathRepository/blob/main/non-note%20files/trimmer.ipynb). The result of this can be found in the same folder as [conll.text](https://github.com/lucyhorowitz/MathRepository/blob/main/non-note%20files/conll.txt).
