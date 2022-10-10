@@ -63,8 +63,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -113,7 +112,7 @@
     "width": 233.5,
     "collapsed": true
   },
-  "active": "f7c3de2cf9ad08a4",
+  "active": "4b6e6dae7ef0848c",
   "lastOpenFiles": [
     "class notes/MATH 32500/Lecture 5.md",
     "class notes/MATH 32500/Lecture 4.md",
