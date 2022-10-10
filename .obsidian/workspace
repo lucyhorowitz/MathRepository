@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "class notes/MATH 32500/Lecture 1.md",
+            "file": "definitions/star of an object.md",
             "mode": "source",
             "source": true
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "class notes/MATH 32500/Lecture 1.md",
+            "file": "definitions/star of an object.md",
             "mode": "preview",
             "source": true
           }
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "game",
+                "query": "star",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -63,7 +63,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -83,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "class notes/MATH 32500/Lecture 1.md",
+                "file": "definitions/star of an object.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,19 +110,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 233.5,
+    "collapsed": true
   },
-  "active": "4b6e6dae7ef0848c",
+  "active": "f7c3de2cf9ad08a4",
   "lastOpenFiles": [
-    "class notes/MATH 32500/Lecture 3.md",
-    "class notes/MATH 32500/Lecture 4.md",
-    "class notes/MATH 32500/unitary representations are completely reducible.md",
     "class notes/MATH 32500/Lecture 5.md",
-    "definitions/Haar integral.md",
-    "class notes/MATH 32500/Lecture 1.md",
-    "class notes/MATH 32500/Lecture 2.md",
-    "definitions/unitary group representation.md",
-    "class notes/MATH 32500/unitary operator.md",
-    "definitions/adjoint of a linear transformation.md"
+    "class notes/MATH 32500/Lecture 4.md",
+    "class notes/MATH 32500/over a compact group, left-invariant measures are also right-invariant.md",
+    "class notes/MATH 32500/continuous complex representations of compact groups are completely reducible.md",
+    "class notes/MATH 32500/classification of representations of SO(3).md",
+    "results/Haar measure.md",
+    "results/right and left group actions commute.md",
+    "results/norm inequality with rectilinear integral volume.md",
+    "definitions/volume of compact topological space.md",
+    "class notes/MATH 32500/Lecture 3.md"
   ]
 }

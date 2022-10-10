@@ -1,4 +1,4 @@
-## Lecture 5
+## 2022-10-07
 - proved [[properties of invariant integral]]
 - defined [[averaging]]
 - proved [[averaging is G-invariant]]

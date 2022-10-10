@@ -1,4 +1,4 @@
-## Lecture 2
+## 2022-09-30
 - defined [[group action]]
 - defined [[induced action of group on maps]]
 - defined [[Laplacian]]

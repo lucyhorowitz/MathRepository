@@ -1,4 +1,4 @@
-## Lecture 3
+## 2022-10-03
 - defined [[Hermitian inner product]]
 - stated [[Hermitian inner product admits orthonormal basis]]
 - defined [[orthogonal complement]]

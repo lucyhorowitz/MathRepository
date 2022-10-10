@@ -1,4 +1,4 @@
-# Lecture 1
+# 2022-09-28
 - defined [[group representation|representation]]
 - defined [[direct sum of group representations]]
 - defined [[subrepresentation]]

@@ -1,0 +1,7 @@
+## Theorem
+Let $X$ be a [[locally compact]] [[topological space]]. Then consider the [[Haar integral]] on this space and let $f:X\to \mathbb C$ be a [[continuous]] function with [[compact support]]. Then 
+1. If $f$ is real-valued, then $\int f$ is a real number.
+2. The following inequality holds: $$\left|\int_X f(x)dx \right| \leq \int |f(x)|dx.$$
+## Proof
+1. Suppose that $f$ is real-valued. The for all $x\in X$, $|f(x)| - f(x) \geq 0$, and therefore $$\int_X (|f(x)| - f(x)) dx \geq 0$$ by positivity. Then we have that $$\int_X (f(x) + |f(x)|)dx \geq 0$$ from the fact that $f(x) \geq -|f(x)$ for all $x$. Thus $$2\int_X f(x)dx =\int_X (f(x) - |f(x)|)dx + \int_X(f(x) -|f(x)|)dx$$ is real.
+2. The two inequalities above prove the second statement for real-valued functions $f$. Now let $f$ be some complex-valued function. We can write $\int f(x)dx = re^{-i\theta}$ for some $r\geq 0$ and $0\leq \theta \leq 2\pi$. Then $e^{i\theta} \cdot \int f(x)dx = r$ is a non-negative real number. But $e^{i\theta}f(x) = u(x)+iv(x)$ for some [[continuous]] real-valued functions $u$ and $v$ with [[compact support]]. Note that $e^{i\theta}\int f = \int u$ because the LHS is real. Then because $|u(x) \leq |e^{i\theta}f(x)|$ for all $x$, we can see that $$\left|\int f\right| = \left| e^{i\theta} \int f\right| = \int e^{i\theta}f = \int u \leq \int |u| \leq \int|e^{i\theta}f| = \int |f|.$$
