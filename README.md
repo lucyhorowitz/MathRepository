@@ -8,7 +8,7 @@ The notes are connected by Obsidian's markdown links. I have tried to be as dens
 
 ### Courses
 - MATH 20700 = Honors Analysis in R^n I — Fall 2020 (functional analysis, linear algebra) (Fall 2020)
-- MATH 20800 = Honors Analysis in R^n II - Winter 2021 (analysis on manifolds) (Winter 2021)
+- MATH 20800 = Honors Analysis in R^n II — Winter 2021 (analysis on manifolds) (Winter 2021)
 - MATH 20900 = Honors Analysis in R^n III — Spring 2021 (measure theory)
 - MATH 25700 = Honors Basic Algebra I — Fall 2021 (group theory)
 - MATH 25800 = Honors Basic Algebra II — Winter 2022(ring theory)
@@ -30,4 +30,4 @@ I have run spaCy v3.4 on the definitions and put the results into CoNLL-U format
 
 ### Cleaning up
 
-The notes are Markdown math notes so naturally they include Markdown and a *lot* of LaTeX. I removed certain symbols (pipes, dollar signs, brackets, octothorpes, newlines, backslashes) and words/phrases that generally do not make up the content of the notes (metadata, links, font names). The code I used to do this can be found under [non-note files](https://github.com/lucyhorowitz/MathRepository/tree/main/non-note%20files) as [trimmper.ipnyb](https://github.com/lucyhorowitz/MathRepository/blob/main/non-note%20files/trimmer.ipynb). The result of this can be found in the same folder as [conll.text](https://github.com/lucyhorowitz/MathRepository/blob/main/non-note%20files/conll.txt).
+The notes are Markdown math notes so naturally they include Markdown and a *lot* of LaTeX. I removed certain symbols (pipes, dollar signs, brackets, octothorpes, newlines, backslashes) and words/phrases that generally do not make up the content of the notes (metadata, links, font names). The code I used to do this can be found under [non-note files](https://github.com/lucyhorowitz/MathRepository/tree/main/non-note%20files) as [trimmper.ipnyb](https://github.com/lucyhorowitz/MathRepository/blob/main/non-note%20files/trimmer.ipynb). The result of this can be found in the same folder as [conll.txt](https://github.com/lucyhorowitz/MathRepository/blob/main/non-note%20files/conll.txt).
