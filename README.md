@@ -20,6 +20,10 @@ The notes are connected by Obsidian's markdown links. I have tried to be as dens
 - MATH 36100 = Proseminar in Topology — Fall 2021-present (a combination of notes from a personal project that stemmed from the seminar as a sort of reading course)
 - UChicago REU 2021 — Summer 2021 (notes that helped me write my [paper](http://math.uchicago.edu/~may/REU2021/REUPapers/Horowitz.pdf) on the Poincaré group)
 
+### Images
+
+Unfortunately, Obsidian's LaTeX support is limited to stuff that is built-in, so I can't use any packages. Therefore most of the files in the images folder are screenshots of commutative diagrams I typeset elsewhere. 
+
 ## Theorems
 
 Sometimes the theorems have proofs associated with them, but in a lot of cases I did not have time to copy proofs from my hand-written notes. These theorem notes are marked with #write_proof in the hopes that I will someday sit down and write the proofs. This definitely makes the linking less dense than I would like, so sometimes when I am typing my notes I will link to definitions and results used in the proof without actually writing the proof to help boost link density. 
