@@ -13,7 +13,7 @@ The notes are connected by Obsidian's markdown links. I have tried to be as dens
 - MATH 25700 = Honors Basic Algebra I — Fall 2021 (group theory)
 - MATH 25800 = Honors Basic Algebra II — Winter 2022(ring theory)
 - MATH 26700 = Intro. to Representation Theory of Finite Groups — Winter 2022
-- MATH 27700 = Mathematical Logic I — Fall 2022 (cardinals, ...)
+- MATH 27700 = Mathematical Logic I — Fall 2022 (cardinals, first-order logic, ...)
 - MATH 29501 = Harmonic Analysis on p-Adic Fields — Paris, Spring 2022
 — MATH 29512 = Introduction to p-Groups — Paris, Spring 2022
 - MATH 32500 = Graduate Algebra I — Fall 2022 (representation theory)
