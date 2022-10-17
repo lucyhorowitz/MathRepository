@@ -1,6 +1,6 @@
 Let $X$ be a set. The **symmetric group** $S_X$ is the set of all [[bijective|bijections]] from $X$ to itself.
 
-When $X$ is finite with [[cardinality]] $n$, it is denoted $S_n$ and consists of the set of permutations on $n$ letters. 
+When $X$ is finite with [[cardinal number]] $n$, it is denoted $S_n$ and consists of the set of permutations on $n$ letters. 
 
 ### Proof that $S_X$ is a [[group]] under function composition
 - Let $f,g\in S_X$. Then $f\circ g$ is also a function from $X$ to itself, and moreover [[composition of bijections is bijective|their composition is also a bijection]]. So $S_X$ is closed under function composition.

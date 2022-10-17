@@ -1,4 +1,0 @@
-## Theorem
-A nontrivial [[p-group]] $G$ has a nontrivial [[center of a group|center]].
-## Proof
-Consider the [[conjugacy classes|action of G on itself]] by conjugation. In this case, the set of [[group action invariants|invariants]] of the [[group action|action]] is equal to the [[center of a group|center]]. Because $G$ is nontrivial, $p$ divides the [[order of a group|order]] of $G$. Then by [[cardinality of p-group-set is congruent to cardinality of invariants mod p|this lemma]], the [[cardinality]] of the [[center of a group|center]] is greater than 1 because it is divisible by $p$. Thus it is nontrivial.

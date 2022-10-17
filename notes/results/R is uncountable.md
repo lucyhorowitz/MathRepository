@@ -1,0 +1,4 @@
+## Theorem
+The set of real numbers $\mathbb R$ is [[uncountable]]. 
+## Proof
+Suppose that $\mathbb R$ is [[countable]]. Then we can write out in a list the [[bijective|bijection]] between $\mathbb N$ and $\mathbb R$ by indexing $\mathbb R$ as $x_i$ for $i\in \mathbb N$. Consider the decimal expansion of each as $x_i = 0.d_{i1}d_{i2}d_{i3}\dots$, never writing the trailing 9s representation when we have the choice. We construct a new real number that is not the image of any natural number as follows:  for each $j \in \mathbb N$, pick a non-nine digit that is not equal to $d_{jj}$. Thus there is no bijection between $\mathbb N$ and $\mathbb R$, so $\mathbb R$ is [[uncountable]].

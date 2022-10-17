@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f7c3de2cf9ad08a4",
+        "id": "f2b054bc75d8a53a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "definitions/star of an object.md",
-            "mode": "source",
-            "source": true
-          }
-        },
-        "group": "64386092ecf20534"
-      },
-      {
-        "id": "1f1189ba760e072a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "definitions/star of an object.md",
+            "file": "results/basis for finite-dimensional tensor product of vector spaces.md",
             "mode": "preview",
             "source": true
           }
-        },
-        "group": "64386092ecf20534"
+        }
       }
     ],
     "direction": "vertical"
@@ -54,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "star",
+                "query": "eigenvector",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -63,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -83,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "definitions/star of an object.md",
+                "file": "results/basis for finite-dimensional tensor product of vector spaces.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,17 +99,17 @@
     "width": 233.5,
     "collapsed": true
   },
-  "active": "4b6e6dae7ef0848c",
+  "active": "a602e3acc5be345b",
   "lastOpenFiles": [
-    "class notes/MATH 32500/Lecture 5.md",
-    "class notes/MATH 32500/Lecture 4.md",
-    "class notes/MATH 32500/over a compact group, left-invariant measures are also right-invariant.md",
-    "class notes/MATH 32500/continuous complex representations of compact groups are completely reducible.md",
-    "class notes/MATH 32500/classification of representations of SO(3).md",
-    "results/Haar measure.md",
-    "results/right and left group actions commute.md",
-    "results/norm inequality with rectilinear integral volume.md",
-    "definitions/volume of compact topological space.md",
-    "class notes/MATH 32500/Lecture 3.md"
+    "results/dimension of finite-dimensional tensor product spaces.md",
+    "results/change of variables.md",
+    "class notes/MATH 27700/Lecture 1.md",
+    "class notes/MATH 27700/Lecture 4.md",
+    "results/Zorn's lemma implies Axiom of Choice.md",
+    "class notes/MATH 27700/Lecture 3.md",
+    "results/Axiom of Choice.md",
+    "results/Zorn's lemma.md",
+    "class notes/MATH 27700/Lecture 2.md",
+    "results/Cantor-Schroeder-Bernstein theorem.md"
   ]
 }

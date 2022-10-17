@@ -1,4 +1,0 @@
-## Theorem
-Let $V$ be a [[definitions/vector space]] and let $T:V \to V$ be a [[linear transformation]]. Let $A$ be the [[matrix of a linear transformation|matrix corresponding]] to $T$ with respect to the [[basis]] $v_1,\dots,v_n$. Then the [[matrix of a linear transformation|matrix corresponding]] to the $m$-fold [[exterior power of linear transformation|exterior product]] of $T$ $$\wedge^m(T):\wedge^m(V)\to\wedge^m(V)$$ from the [[exterior power of a vector space|exterior product]] of $V$ to itself is given by $B = (b_{IJ})$ where $I,J \subset \{1,\dots, n\}$ are subsets of [[cardinality]] $m$ and $b_{IJ} = \text{det}(A_{IJ})$, where $A_{IJ}$ is the $m\times m$ sub[[matrix]] of $A$ given by $(a_{ij})_{i\in I,j\in J}$. 
-## Proof
-#write_proof 
