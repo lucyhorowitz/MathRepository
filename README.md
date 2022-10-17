@@ -13,9 +13,9 @@ The notes are connected by Obsidian's markdown links. I have tried to be as dens
 - MATH 25700 = Honors Basic Algebra I — Fall 2021 (group theory)
 - MATH 25800 = Honors Basic Algebra II — Winter 2022(ring theory)
 - MATH 26700 = Intro. to Representation Theory of Finite Groups — Winter 2022
-- MATH 27700 = Mathematical Logic I — Fall 2022 (cardinals, ...)
+- MATH 27700 = Mathematical Logic I — Fall 2022 (cardinals, first-order logic, ...)
 - MATH 29501 = Harmonic Analysis on p-Adic Fields — Paris, Spring 2022
-— MATH 29512 = Introduction to p-Groups — Paris, Spring 2022
+- MATH 29512 = Introduction to p-Groups — Paris, Spring 2022
 - MATH 32500 = Graduate Algebra I — Fall 2022 (representation theory)
 - MATH 36100 = Proseminar in Topology — Fall 2021-present (a combination of notes from a personal project that stemmed from the seminar as a sort of reading course)
 - UChicago REU 2021 — Summer 2021 (notes that helped me write my [paper](http://math.uchicago.edu/~may/REU2021/REUPapers/Horowitz.pdf) on the Poincaré group)
