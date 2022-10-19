@@ -1,0 +1,110 @@
+{
+  "main": {
+    "id": "72397a2ada9ea91d",
+    "type": "split",
+    "children": [
+      {
+        "id": "380f284ea660e9bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2b054bc75d8a53a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/definitions/graded vector subspace.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d934183b3461dfd1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "e7ddc5d7bbef8ca6",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "c87fe897ca059796",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "Graded",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "6ab0417c733777bb",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      }
+    ],
+    "currentTab": 1
+  },
+  "right": {
+    "id": "85c8bbcc10abe117",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ac9d72f3ab134864",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "notes/definitions/graded vector subspace.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "f2b054bc75d8a53a",
+  "lastOpenFiles": [
+    "notes/definitions/generate a ring ideal.md",
+    "notes/definitions/graded subalgebra.md",
+    "results/dimension of finite-dimensional tensor product spaces.md",
+    "results/change of variables.md",
+    "class notes/MATH 27700/Lecture 1.md",
+    "class notes/MATH 27700/Lecture 4.md",
+    "results/Zorn's lemma implies Axiom of Choice.md",
+    "class notes/MATH 27700/Lecture 3.md",
+    "results/Axiom of Choice.md",
+    "results/Zorn's lemma.md"
+  ]
+}

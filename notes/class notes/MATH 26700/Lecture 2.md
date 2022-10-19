@@ -3,7 +3,7 @@
 - [[morphism of group representations]]
 - [[isomorphism of group representations]]
 - [[subrepresentation]]
-- [[G-invariant]]
+- [[G-invariant subspace]]
 - [[irreducible representation]]
 - [[tensor product of group representations]]
 - [[symmetric power of group representations]]
