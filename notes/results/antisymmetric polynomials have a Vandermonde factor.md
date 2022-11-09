@@ -1,0 +1,4 @@
+## Theorem
+Let $R$ be a [[unique factorization domain]] and let $P = R[x_1,\dots,x_n]$ be the [[polynomial ring]] Any [[antisymmetric]] [[polynomial ring|polynomial]] $f\in P^{\text{sign}}$ can be written uniquely as $a\Delta_n$ for $\Delta_n$ the [[Vandermonde determinant]] and $a$ an [[invariant polynomials under group action|invariant polynomials]] under the [[group action|action]] of the [[symmetric group]] $S_n$ on the variables by permutation.
+## Theorem
+This is the statement that [[sign-invariant polynomials over UFD are rank-1 free module over Young-invariant polynomials]] in the case of the trivial [[partition of an integer|partition]] of $n$.

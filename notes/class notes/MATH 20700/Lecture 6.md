@@ -7,6 +7,6 @@
 ### Stated
 - [[norm of linear transformation inequality]]
 - [[self-adjoint finite-dimensional linear transformation has norm magnitude of largest eigenvalue]]
-- [[trace of self-adjoint finite-dimensional linear transformation is sum of eigenvalues]]
+- [[trace of finite-dimensional linear transformation is sum of eigenvalues]]
 - [[eigenvectors are orthogonal]]
 ### Examples

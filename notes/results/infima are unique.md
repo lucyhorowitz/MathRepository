@@ -1,0 +1,1 @@
+Let $(X,\leq)$ be a [[partially ordered set]] and let $S\subseteq X$. Then an [[infimum]] for $S$, if it exists, is unique.

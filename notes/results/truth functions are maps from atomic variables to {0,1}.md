@@ -1,0 +1,4 @@
+## Theorem
+Let $L$ be a [[formal language of propositional logic]] consisting of atomic variables $\{A_i\}_{i\in I}$. Then [[semantic notion of truth|truth functions]] on $\text{Form}(L)$ are in bijection with maps $\{A_i\}_{i\in I} \to \{0,1\}$. This means that truth functions are completely determined by their values on the logical variables of a language.
+## Proof
+Recall the construction of $\text{Form}(L)$ as $$\bigcup_{i\in\mathbb N} LC^i(\{A_i\}_{i\in I} \cup \{\bot\}).$$ For simplicity, let $LC^i =LC^i(\{A_i\}_{i\in I}$.  By [[induction]], we can extend $t_i = t_{|\bigcup LC^i}$ to $t_{i+1}$. The base case is simple; we are starting with a binary function $t_0$ on the $\{A_i\}$. As required, set $t_0(\bot) = 0$. Given the inductive hypothesis, the result follows by the [[unique reading lemma]]. 

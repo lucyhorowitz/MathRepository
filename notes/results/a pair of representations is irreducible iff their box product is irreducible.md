@@ -1,0 +1,4 @@
+## Theorem
+Let $G$ and $G'$ be [[compact]] [[topological group|topological groups]] and let $\rho:G\to GL(V)$ and $\rho:G\to GL(V')$ be [[continuous group representation|continuous]] [[group representation|representations]] of $G$ and $G'$. Then $\rho$ and $\rho'$ are both [[irreducible representation|irreducible]] if and only if their [[box product of representations|box product]] $\rho\boxtimes \rho'$ is [[irreducible representation|irreducible]] as a [[group representation|representation]] of $G\times G'$.
+## Proof
+#write_proof  [[inner product of box products of representations]] [[first orthogonality relation]]

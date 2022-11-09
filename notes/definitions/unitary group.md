@@ -5,7 +5,4 @@ The **[[unitary matrix|unitary]] [[group]]** $\text{U}(n)$ is the [[group]] of $
 
 This [[group]] is a [[matrix Lie group]] because it is a [[subgroup]] of the [[general linear group]] $\text{GL}(n,\mathbb C)$.
 
-### Proof that it is a [[group]]
-#write_proof 
-
 https://www.wikidata.org/wiki/Q1500617

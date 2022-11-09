@@ -1,0 +1,4 @@
+## Theorem
+Let $G$ be a [[group]] and let $\rho:G\to GL(V)$ be a finite-[[dimension of group representation|dimensional]] [[group representation|representation]] of $G$. Then the [[character of a representation|character]] of the [[contragradient representation]] $\rho^\vee$ is given by $$\chi_{\rho^\vee}(g) = \chi_\rho(g^{-1})$$ for all $g\in G$. 
+## Proof
+By definition, $\rho^\vee(g) = \rho(g^{-1})^\intercal$. The result follows from the fact that the [[trace]] of the [[adjoint of a linear transformation|adjoint]] of a [[linear transformation]] of a finite-[[dimension of vector space|dimensional]] [[vector space]] [[trace is invariant under conjugation|is]] the  same as the [[trace]] of that transformation. 

@@ -1,0 +1,10 @@
+## 2022-10-18
+- proved [[falsehood proves everything]]
+- proved [[every collection of statements proves truth]]
+- proved  [[not P implies Q proves not Q and P]]
+- proved [[listing lemma]]
+- proved [[truth functions are maps from atomic variables to {0,1}]]
+- defined [[model]]
+- defined [[consistent]]
+- stated [[Gödel's completeness theorem]]
+- proved [[soundness theorem]] 

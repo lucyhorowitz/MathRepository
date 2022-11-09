@@ -15,7 +15,7 @@ aliases: May, Concise
 ### 1.3 Dependence on the basepoint
 - [[fundamental group does not depend on basepoint]]
 ### 1.4 Homotopy Invariance
-- [[continuous functions induce homomorphisms on fundamental group]]
+- [[induced homomorphism on fundamental group]]
 - [[homotopy invariance diagram]]
 ### 1.5 Calculations
 - [[fundamental group of R]]

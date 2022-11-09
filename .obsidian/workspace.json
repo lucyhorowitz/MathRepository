@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "63f0664ab23254dd",
+        "id": "9f6a320d1054a67c",
         "type": "tabs",
         "children": [
           {
-            "id": "1604fa092dd61d88",
+            "id": "a88c93f4ce0d5c51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/definitions/comeager.md",
-                "mode": "source",
+                "file": "notes/definitions/generate an R-module.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "meager",
+                "query": "generate module",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 200
   },
   "right": {
     "id": "ceb70828d57eacc4",
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/definitions/comeager.md",
+                "file": "notes/definitions/generate an R-module.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,20 +107,17 @@
     "width": 233.5,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "1604fa092dd61d88",
+  "active": "a88c93f4ce0d5c51",
   "lastOpenFiles": [
-    "notes/definitions/meager.md",
-    "notes/definitions/closed half-space.md",
-    "notes/definitions/centralizer of a subset.md",
-    "notes/definitions/generate a ring ideal.md",
-    "notes/definitions/algebra over a field.md",
-    "notes/definitions/graded vector subspace.md",
-    "notes/definitions/graded subalgebra.md",
-    "notes/definitions/graded algebra.md",
-    "notes/definitions/graded vector space.md",
-    "notes/definitions/finitely generated R-module.md"
+    "notes/definitions/finitely generated R-module.md",
+    "notes/definitions/free module.md",
+    "notes/results/first orthogonality relation.md",
+    "notes/class notes/MATH 32500/Prof-Provided notes.md",
+    "notes/results/representations are modules over group algebra.md",
+    "notes/definitions/unitary matrix.md",
+    "notes/results/continuous representations are unitary with respect to some basis.md",
+    "notes/results/distance to closed, convex subset of a Hilbert space.md",
+    "notes/definitions/convex set.md",
+    "notes/results/mean value theorem 3.md"
   ]
 }

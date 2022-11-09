@@ -1,0 +1,8 @@
+## Theorem
+Let $G$ be a [[group]] and let $\rho:G\to GL(V)$ be a finite-[[dimension of group representation|dimensional]] [[group representation|representation]] of $G$. Then $\rho$ is [[irreducible representation|irreducible]] if and only if its [[contragradient representation]] $\rho^\vee$ is [[irreducible representation|irreducible]].
+## Proof
+Let $F$ be a [[vector subspace]] of $V$ and define $$F^\perp = \{\phi \in V^* \mid \phi_{|F} = 0\}.$$ The [[finite-dimensional vector space is isomorphic to its dual|canonical isomorphism]] $V\cong (V^*)^*$ sends $F$ to $(F^\perp)^\perp$.
+
+Then $F$ is an [[invariant subspace]] under $G$ if and only if $F^\perp$ is: if $F$ is $G$-[[invariant subspace|invariant]], then for $f\in F$, $\rho(g)(f) \in F$ for all $g\in G$. Thus $$((\rho(g)^*\phi)(f)) = \phi(\rho(g))(f) = 0$$ for all $\phi \in F^\perp$. Thus $\rho(g)^*\phi \in F^\perp$, i.e. $F^\perp$ is $G$-[[invariant subspace|invariant]]. The opposite implication follows from the fact that $(F^\perp)^\perp =F$. 
+
+Now suppose that $\rho:G\to GL(V)$ is not [[irreducible representation|irreducible]]. Then there exists a nonzero [[invariant subspace]] of $V$, call it $F$. It follows from the abvoe that $F^\perp$ is a nonzero [[invariant subspace]] of $V^*$, and moreover $F^\perp \neq V^*$ because otherwise we would have $F= (F^\perp)^\perp = (V^*)^\perp = \{0\}$. Thus $V^*$ is not [[irreducible representation|irreducible]]. The opposite implication follows from the fact that $V = (V^*)^*$.

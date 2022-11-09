@@ -5,5 +5,5 @@
 ### Proved
 - [[volume of a the linear image of a rectifiable set]]
 ### Stated
-- [[multiplicity of the determinant]]
+- [[determinant is multiplicative]]
 ### Examples

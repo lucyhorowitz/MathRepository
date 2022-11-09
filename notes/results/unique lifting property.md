@@ -23,7 +23,7 @@ The last three parts can be stated as follows:
 
 ## Proof
 1. Divide $I$ into [[subinterval|subintervals]], each mapping to a [[covering space|fundamental neighborhood]]. #todo *how do we know we can do this?* [[lift|Lift]] $f$ to $g$ [[induction|inductively]] by using the [[homeomorphism]] property of [[covering space|fundamental neighborhoods]]. 
-2. Let $h:I\times I\to B$ be a [[homotopy]] $f\simeq f'$ through [[path|paths]] $b\to b'$. [[partition|Partition]] the square into subsquares each mapping to a [[covering space|fundamental neighborhood]] under $f$. Again proceeding by [[induction]] #todo *how, exactly?* $h$ [[lift|lifts]] uniquely to to a [[homotopy]] $H:I\times I \to E$ such that $H(0,0) = e$ and $p\circ H = h$. By uniqueness, $H$ is a [[homotopy]] $g\simeq g'$ through [[path|paths]] $e\to e'$, where $g(1) = e'=g'(1)$. 
+2. Let $h:I\times I\to B$ be a [[homotopy]] $f\simeq f'$ through [[path|paths]] $b\to b'$. [[partition of a set|Partition]] the square into subsquares each mapping to a [[covering space|fundamental neighborhood]] under $f$. Again proceeding by [[induction]] #todo *how, exactly?* $h$ [[lift|lifts]] uniquely to to a [[homotopy]] $H:I\times I \to E$ such that $H(0,0) = e$ and $p\circ H = h$. By uniqueness, $H$ is a [[homotopy]] $g\simeq g'$ through [[path|paths]] $e\to e'$, where $g(1) = e'=g'(1)$. 
 
 The next parts are proved in terms of the [[functor|functorial]] statement of the theorem.
 

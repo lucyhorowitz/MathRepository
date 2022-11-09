@@ -1,4 +1,3 @@
-### regular version
 A **field** is a set $F$ together with two [[binary operation|binary operations]] addition ($+$) and multiplication ($\cdot$) such that
 - Addition and multiplication are both [[associative]];
 - Addition and multiplication are both [[commutative]];
@@ -6,7 +5,7 @@ A **field** is a set $F$ together with two [[binary operation|binary operations]
 - Every element of $F$ has an additive [[inverse element|inverse]];
 - Every nonzero element of $F$ has a multiplicative [[inverse element|inverse]];
 - Multiplication distributes over addition as follows: $a\cdot (b+c) = (a\cdot b) + (a\cdot c)$ for all $a,b,c\in F$. 
-### MATH 25800 version
-A **field** is a [[commutative]] [[division ring]].
+
+Equivalently, a **field** is a [[commutative]] [[division ring]].
 
 https://www.wikidata.org/wiki/Q190109

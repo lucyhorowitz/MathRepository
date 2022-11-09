@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "380f284ea660e9bb",
+        "id": "42a826beac93cde2",
         "type": "tabs",
         "children": [
           {
             "id": "f2b054bc75d8a53a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/definitions/graded vector subspace.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,11 +21,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d934183b3461dfd1",
+    "id": "089d77c6658711cc",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "e7ddc5d7bbef8ca6",
+        "id": "ea73203cdc8e70f2",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -39,22 +35,22 @@
         }
       },
       {
-        "id": "c87fe897ca059796",
+        "id": "ec4406e1e93817de",
         "type": "leaf",
         "state": {
           "type": "search",
           "state": {
-            "query": "Graded",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
-            "collapseAll": true,
+            "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
           }
         }
       },
       {
-        "id": "6ab0417c733777bb",
+        "id": "8b3f7a1cff1220a1",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -65,19 +61,18 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
-    "id": "85c8bbcc10abe117",
+    "id": "58d164e06492a72b",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "ac9d72f3ab134864",
+        "id": "af86d8a33843a1cf",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "notes/definitions/graded vector subspace.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -91,13 +86,8 @@
     ],
     "currentTab": 0
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "f2b054bc75d8a53a",
   "lastOpenFiles": [
-    "notes/definitions/generate a ring ideal.md",
-    "notes/definitions/graded subalgebra.md",
     "results/dimension of finite-dimensional tensor product spaces.md",
     "results/change of variables.md",
     "class notes/MATH 27700/Lecture 1.md",
@@ -105,6 +95,8 @@
     "results/Zorn's lemma implies Axiom of Choice.md",
     "class notes/MATH 27700/Lecture 3.md",
     "results/Axiom of Choice.md",
-    "results/Zorn's lemma.md"
+    "results/Zorn's lemma.md",
+    "class notes/MATH 27700/Lecture 2.md",
+    "results/Cantor-Schroeder-Bernstein theorem.md"
   ]
 }

@@ -4,7 +4,7 @@
 - [[volume]]
 - [[width]]
 - [[component interval]]
-- [[partition]]
+- [[partition of a set]]
 - [[upper sum]]
 - [[lower sum]]
 - [[refinement]]

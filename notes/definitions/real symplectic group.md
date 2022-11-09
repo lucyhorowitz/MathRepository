@@ -2,7 +2,4 @@ The **real symplectic group** $\text{Sp}(2n,\mathbb R)$ is the [[group]] of real
 
 This [[group]] is a [[matrix Lie group]] because it is a [[subgroup]] of the [[general linear group]] $\text{GL}(n,\mathbb C)$.
 
-### Proof that it is a [[group]]
-#write_proof 
-
 https://www.wikidata.org/wiki/Q936434

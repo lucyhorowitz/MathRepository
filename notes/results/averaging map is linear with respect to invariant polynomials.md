@@ -1,0 +1,6 @@
+## Theorem
+Let $G$ be a [[compact]] [[subgroup]] [[subgroups of general linear groups are topological groups|of]] the [[general linear group]] $GL_n(\mathbb C)$. Then the [[averaging of vector-valued function|averaging]] projector as defined in the proof of [[algebra of G-invariant polynomials is finitely generated|this theorem due to Hilbert]] is linear with respect to the [[invariant polynomials under group action|algebra of invariant polynomials]]. That is, for any $b\in P^G$ and $f\in P$, $\text{Av}(f\cdot b) = \text{Av}(f) \cdot b$. 
+## Proof
+The [[group action|action]] of $G$ on the whole [[polynomial ring|polynomial algebra]] is given by the [[induced action of group on maps]] $g:f\mapsto g^* f$. That is, for $f,b$ as above, $$g^*(f\cdot b) = g^*(f)\cdot g^*(b) = g^*(f) \cdot b$$ because by assumption $g^*(b) = b$.  From this we see that the map $m_b :P\to P$ given by $f\mapsto f\cdot b$ is an [[morphism of group representations|intertwiner]].
+
+Because $\text{Av}$ [[properties of vector-valued averaging|commutes with]] [[morphism of group representations|intertwiners]], we have $$\text{Av}(f\cdot b) = \text{Av}(m_b(f)) = m_b(\text{Av}(f)) = \text{Av}(f) \cdot b,$$ as desired.

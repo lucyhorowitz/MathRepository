@@ -39,7 +39,7 @@
 	- [[Maschke's theorem]]
 	- [[morphism of group representations]]
 	- [[equivalent group representations]]
-	- [[Schur's lemma]]
+	- [[Schur's lemma for representations]]
 	- [[irreducible representations of abelian groups are one-dimensional]]
 	- [[tensor product of vector spaces]]
 	- [[multilinear]]

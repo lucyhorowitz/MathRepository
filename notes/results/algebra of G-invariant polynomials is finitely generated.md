@@ -1,0 +1,9 @@
+## Theorem
+Let $G$ be a [[compact]] [[subgroup]] [[subgroups of general linear groups are topological groups|of]] the [[general linear group]] $GL_n(\mathbb C)$. Then the [[invariant polynomials under group action|algebra of G-invariant polynomials]] $\mathbb C[x_1,\dots,x_n]^G$ is [[generate an associative algebra|generated]] by finitely many homogeneous polynomials. 
+## Proof
+Let $P = \mathbb C[x_1,\dots,x_n]$ . For each $d\geq 0$, the $G$-[[group action|action]] on $P^d$, the [[vector subspace|subspace]] of [[degree of polynomial|degree]]-$d$ polynomials, gives a [[continuous group representation|continuous]] finite-[[dimension of group representation|dimensional]] [[group representation|representation]] $G\to GL(P^d)$ given by the [[induced action of group on maps]]. 
+
+Let $\text{Av}_d$ be the corresponding [[averaging of vector-valued function|averaging]] [[properties of vector-valued averaging|projection]]. Since $P^G = \bigoplus_{d\geq 0} (P^d)^G$, combining the [[projection|projcetions]] $\text{Av}_d$ gives a total $G$-[[equivariant map]] [[projection]] $\text{Av}:P \to P^G$ onto the space of $G$-[[G-invariant vectors|invariant]] polynomials. Note that this map is not in general an [[algebra homomorphism]].
+
+## Proof
+Consider the [[augmentation ideal]] $P_{> 0} = \bigoplus_{d> 0} P^d$ and note that [[ring of polynomial invariants is Noetherian|it must be]] finitely [[generate an algebra ideal|generated]] as a [[graded algebra ideal]]. Moreover, since $P_{>0}$ is a [[graded algebra ideal|homogeneous ideal]], we can find a set $\{b_i\}_{i=1}^p$ of homogeneous generators for $P_{>0}$. Then the result follows from the fact that [[homogeneous elements of augmentation ideal generate augmentation ideal iff they generate the algebra|homogeneous elements of the augmentation ideal of an algebra generate this ideal if and only if the generate the whole algebra]], where the algebra we consider is $P^G$. 

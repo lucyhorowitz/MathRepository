@@ -1,0 +1,5 @@
+## Theorem
+Let $R$ be a [[unique factorization domain]] and let $P$ be the [[polynomial ring|polynomial]] $R[x_1,\dots,x_n]$. Let $\lambda$ be a [[partition of an integer]] of $n$. Then the anti-[[invariant polynomials under group action|invariant polynomials]] under the action of the [[Young subgroup]] $S_\lambda$ by permutation of variables, i.e. $P^{\text{sign}_\lambda}$, is a [[free module|free]] [[module over a ring|module]] over the [[invariant polynomials under group action|invariant polynomials]] with respect to the [[Young subgroup]] $S_\lambda$, and its generator is the [[Vandermonde determinant|Vandermonde polynomial]] $\Delta_\lambda$. In particular, $P^{\text{sign}_\lambda} =P^{S_\lambda}\cdot\Delta_\lambda$.
+
+## Proof
+#write_proof [[division in a ring|divides]] [[integral domain is a UFD iff its polynomial ring is a UFD]]

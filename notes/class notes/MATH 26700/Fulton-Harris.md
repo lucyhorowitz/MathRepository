@@ -22,5 +22,5 @@
 - [[representations are direct sums of irreducible representations]]
 - [[complete reducibility]]
 - [[modular representation]]
-- [[Schur's lemma]]
+- [[Schur's lemma for representations]]
 - [[direct sum decomposition of representations]]

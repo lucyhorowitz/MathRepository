@@ -1,0 +1,9 @@
+## Theorem
+
+The [[Basic Additive Character]] of the [[p-adic field]] $\mathhbb Q_p$ is a [[multiplicative character]].
+
+## Proof  
+
+First we check that it is a [[group homomorphism]]: If $x,y$ are [[p-adic integers]], then $x+y \in \mathbb Z_p$ as well and moreover $\psi(x) = \psi(y) = \psi(x+y) = 1$ because the [[conductor of a multiplicative character|conductor]] of $\psi$ [[conductor of basic additive character is p-adic integers|is]] the [[p-adic integers]]. Suppose that $y\notin \mathbb Z_p$ and without loss of generality that the [[valuation]] $\text{val}(x)\leq \text{val}(y)$. Then write the tails as $$\lambda(x) = \sum_{n=v(x)}^{-1}a_np^n \text{ and } \lambda(y) = \sum_{n=v(y)}^{-1}b_np^n.$$ Note that $\lambda(x)+\lambda(y) - \lambda(x+y)$ must either be equal to zero or one "depending on carrying." Then $$\psi(x+y) = e^{2\pi i (\lambda(x+y))} = e^{2\pi i (\lambda(x)+ \lambda(y))} = e^{2\pi i \lambda(x)}e^{2\pi i \lambda(y)} =\psi(x)\psi(y)$$ because $e^{2\pi t}$ is an integer-[[periodic function]] of $t$. Thus $\psi$ is a homomorphism.
+
+Now note that because a [[group homomorphism|homomorphism]] from one [[topological group]] to another is [[continuous]] [[homomorphism is continuous if and only if it is continuous at e|if and only if]] it is [[continuous]] at the [[identity element]], we just need to show that $\psi$ is continuous at $0$. For any $\varepsilon$, we can choose $\delta \leq 1$ such that if $|x-0|_p<\delta$, then $x\in \mathbb Z_p$ by definition. This implies by the above that $\psi(x)=1$, so $|\psi(x) - \psi(0)| = 0<\varepsilon$ under the [[complex numbers|complex]] [[absolute value]].

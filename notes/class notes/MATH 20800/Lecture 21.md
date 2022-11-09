@@ -1,6 +1,6 @@
 ## 2021-03-03
 ### Defined
-- [[vector space of k-forms]]
+- [[differential k-form]]
 - [[pullback along k-form]]
 - [[differential of a k-form]]
 - [[closed half-space]]

@@ -1,0 +1,4 @@
+## Theorem
+Let $G$ and $G'$ be [[compact]] [[topological group|topological groups]] and let $\rho_1,\rho_2:G\to GL(V)$ and $\rho_1',\rho_2':G'\to GL(V')$ be [[continuous group representation|continuous]] [[group representation|representations]] of $G$ and $G'$. Then the [[L2 inner product on group functions]] satisfies for [[character of a representation|characters]] of these representations and their [[box product of representations]] the relation$$\langle \chi_{\rho_1\boxtimes\rho_1'},\chi_{\rho_2\boxtimes\rho_2'}\rangle_{G\times G'}  = \left(\langle \chi_{\rho_1},\chi_{\rho_2}\rangle_G\right)\left(\langle \chi_{\rho_1'},\chi_{\rho_2'}\rangle_{G'}\right). $$
+## Proof
+[[tensor product of representations is box product composed with diagonal embedding]] [[character of tensor product of representations is product of characters]]

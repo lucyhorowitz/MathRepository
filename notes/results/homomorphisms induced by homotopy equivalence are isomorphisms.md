@@ -1,6 +1,6 @@
 ## [[A Concise Course in Algebraic Topology|Concise]] version:
 ### Theorem
-Let $X$ and $Y$ be [[topological space|topological spaces]]. If $f:X\to Y$ is a [[homotopy equivalence of spaces|homotopy equivalence]], then the [[continuous functions induce homomorphisms on fundamental group|induced]] [[group homomorphism|homomorphism]] $$f_*: \pi_1(X,x) \to \pi_1(Y,y)$$ is an [[group homomorphism|isomorphism]] for all $x\in X$. 
+Let $X$ and $Y$ be [[topological space|topological spaces]]. If $f:X\to Y$ is a [[homotopy equivalence of spaces|homotopy equivalence]], then the [[induced homomorphism on fundamental group|induced]] [[group homomorphism|homomorphism]] $$f_*: \pi_1(X,x) \to \pi_1(Y,y)$$ is an [[group homomorphism|isomorphism]] for all $x\in X$. 
 ### Proof
 Let $g:Y\to X$ be a [[homotopy]] inverse of $f$. Then by the [[homotopy invariance diagram]], the following two composites are [[isomorphism|isomorphisms]]:
 

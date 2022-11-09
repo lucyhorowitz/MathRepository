@@ -1,0 +1,10 @@
+## 2022-10-27
+- defined [[filter]]
+- defined [[proper filter]]
+- defined [[ultrafilter]]
+- proved [[fiber of 1 in Boolean algebra is a filter]]
+- proved [[not not P is P]]
+- defined [[propositional theory]]
+- defined [[principal ultrafilter]]
+- proved [[infinite sets admit non-principal ultrafilters]]
+- proved [[proper filters are contained in ultrafilters]]
