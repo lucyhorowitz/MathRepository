@@ -1,0 +1,4 @@
+## Theorem
+Let $V$ be a finite-[[dimension of vector space|dimensional]] real [[vector space]] and let $\rho$ be a [[metric space|metric]] that is [[norm induces metric|induced]] by a [[norm]] $|\cdot|$. Then $\rho$ makes $V$ into a [[complete metric space]].
+## Proof
+[[every vector space admits a basis|Choose]] a [[basis]] for $V$ then we can identify $V$ with $\mathbb R^n$ for $n = \dim V$. Then since all [[norm|norms]] [[all norms on vector spaces are equivalent iff finite dimensional|are]] [[equivalent metrics|equivalent]] to the [[maximum norm]], because the [[maximum norm is complete]] it follows that our choice of norm is [[complete metric space|complete]].

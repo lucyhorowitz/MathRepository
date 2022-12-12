@@ -11,8 +11,12 @@
             "id": "f2b054bc75d8a53a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "notes/definitions/module over a ring.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -40,10 +44,10 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "module",
             "matchingCase": false,
             "explainSearch": false,
-            "collapseAll": false,
+            "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical"
           }
@@ -61,7 +65,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "58d164e06492a72b",
@@ -73,6 +77,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "notes/definitions/module over a ring.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -88,15 +93,15 @@
   },
   "active": "f2b054bc75d8a53a",
   "lastOpenFiles": [
+    "notes/definitions/module over a Lie algebra.md",
+    "notes/definitions/module over a ring.md",
+    "notes/definitions/chart.md",
+    "notes/definitions/orthogonal algebra.md",
+    "notes/definitions/differentiable.md",
+    "notes/results/inverse function theorem.md",
     "results/dimension of finite-dimensional tensor product spaces.md",
     "results/change of variables.md",
     "class notes/MATH 27700/Lecture 1.md",
-    "class notes/MATH 27700/Lecture 4.md",
-    "results/Zorn's lemma implies Axiom of Choice.md",
-    "class notes/MATH 27700/Lecture 3.md",
-    "results/Axiom of Choice.md",
-    "results/Zorn's lemma.md",
-    "class notes/MATH 27700/Lecture 2.md",
-    "results/Cantor-Schroeder-Bernstein theorem.md"
+    "class notes/MATH 27700/Lecture 4.md"
   ]
 }

@@ -1,3 +1,4 @@
+
 1. Introduction
 	1. Basic notation and definitions
 	2. Topological groups
@@ -126,3 +127,26 @@
 	2. Irreducible representation of the Symmetric group
 		- [[Specht module]]
 		- [[Specht modules are irreducible]]
+	3. Schur polynomials
+		- [[Schur polynomials]]
+		- [[Schur polynomials form a basis for symmetric polynomials over Z]]
+		- [[Cauchy identity for Schur polynomials]]
+6. Lie groups and Lie algebras
+	1. Banach algebras
+		- [[norm]]
+		- [[equivalent metrics]]
+		- [[all norms on vector spaces are equivalent iff finite dimensional]]
+		- [[complete metric space|complete]]
+		- [[metric induced by norm on finite-dimensional vector space is complete]]
+		- [[multiplicative norm]]
+		- [[Banach algebra]]
+	2. Calculus in Banach algebras
+		- [[absolute convergence]]
+		- [[Cauchy-Hadamard theorem]]
+		- [[radius of convergence]]
+		- [[power series convergence in Banach algebra]] 
+		- [[differentiable]]
+		- [[power series convergence implies continuity]]
+		- [[power series convergence implies derivative convergence]]
+		- [[geometric series is well-defined in Banach algebra]]
+		- [[properties of the exponential map in Banach algebra]]

@@ -1,5 +1,5 @@
 ## Theorem
-Let $X,Y \in M_n(\mathbb C)$ be [[matrix|matrices]]. Then 
+Let $X,Y \in M_n(\mathbb C)$ be elements of a [[matrix|matrices]]. Then 
 1. $e^0 = I$;
 2. the [[adjoint of a linear transformation]] (or [[conjugate transpose|Hermitian transpose]]) of the [[exponential of linear transformation|matrix exponential]] is such that $\left(e^X\right)^* = e^{X^*}$;
 3. $e^X$ is [[invertible matrix|invertible]] and $\left(e^X\right)^{-1} = e^{-X}$;
